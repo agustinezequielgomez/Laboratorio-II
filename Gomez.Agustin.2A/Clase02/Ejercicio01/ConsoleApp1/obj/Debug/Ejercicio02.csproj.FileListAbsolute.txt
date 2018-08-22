@@ -4,3 +4,4 @@ C:\Users\alumno\Desktop\Laboratorio-II\Gomez.Agustin.2A\Clase02\Ejercicio01\Cons
 C:\Users\alumno\Desktop\Laboratorio-II\Gomez.Agustin.2A\Clase02\Ejercicio01\ConsoleApp1\obj\Debug\Ejercicio02.csproj.CoreCompileInputs.cache
 C:\Users\alumno\Desktop\Laboratorio-II\Gomez.Agustin.2A\Clase02\Ejercicio01\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 C:\Users\alumno\Desktop\Laboratorio-II\Gomez.Agustin.2A\Clase02\Ejercicio01\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\alumno\Desktop\Laboratorio-II\Gomez.Agustin.2A\Clase02\Ejercicio01\ConsoleApp1\obj\Debug\Ejercicio02.csprojAssemblyReference.cache
