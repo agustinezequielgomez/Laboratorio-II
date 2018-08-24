@@ -1,7 +1,0 @@
-C:\Users\alumno\Desktop\Laboratorio-II\Gomez.Agustin.2A\Clase01\Ejercicio02\bin\Debug\Ejercicio02.exe.config
-C:\Users\alumno\Desktop\Laboratorio-II\Gomez.Agustin.2A\Clase01\Ejercicio02\bin\Debug\Ejercicio02.exe
-C:\Users\alumno\Desktop\Laboratorio-II\Gomez.Agustin.2A\Clase01\Ejercicio02\bin\Debug\Ejercicio02.pdb
-C:\Users\alumno\Desktop\Laboratorio-II\Gomez.Agustin.2A\Clase01\Ejercicio02\obj\Debug\Ejercicio01.csprojAssemblyReference.cache
-C:\Users\alumno\Desktop\Laboratorio-II\Gomez.Agustin.2A\Clase01\Ejercicio02\obj\Debug\Ejercicio01.csproj.CoreCompileInputs.cache
-C:\Users\alumno\Desktop\Laboratorio-II\Gomez.Agustin.2A\Clase01\Ejercicio02\obj\Debug\Ejercicio02.exe
-C:\Users\alumno\Desktop\Laboratorio-II\Gomez.Agustin.2A\Clase01\Ejercicio02\obj\Debug\Ejercicio02.pdb

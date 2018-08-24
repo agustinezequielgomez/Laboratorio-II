@@ -1,2 +1,0 @@
-C:\Users\alumno\Desktop\Laboratorio-II\Gomez.Agustin.2A\Clase02\Ejercicio01\ConsoleApp1\obj\Debug\Ejercicio01.csprojAssemblyReference.cache
-C:\Users\alumno\Desktop\Laboratorio-II\Gomez.Agustin.2A\Clase02\Ejercicio01\ConsoleApp1\obj\Debug\Ejercicio01.csproj.CoreCompileInputs.cache
