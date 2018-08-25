@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-  class Ejercicio_01
+  class Ejercicio_02
   {
     static void Main(string[] args)
     {
-      Console.Title = "Ejercicio Nro 01";
+      Console.Title = "Ejercicio Nro 02";
 
       int numeros = 0;
       double potencia;
