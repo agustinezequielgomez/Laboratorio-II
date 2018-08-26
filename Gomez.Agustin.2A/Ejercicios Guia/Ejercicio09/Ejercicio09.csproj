@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E4B17AD2-27E5-4013-AF35-A41B4DB4EE1A}</ProjectGuid>
+    <ProjectGuid>{37974913-77C8-4235-9F18-AA4B4E65549C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ejercicio08</RootNamespace>
-    <AssemblyName>Ejercicio08</AssemblyName>
+    <RootNamespace>Ejercicio09</RootNamespace>
+    <AssemblyName>Ejercicio09</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Salario.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
