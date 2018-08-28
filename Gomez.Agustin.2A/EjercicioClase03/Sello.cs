@@ -29,23 +29,41 @@ namespace EjercicioClase03
 
         private static string ArmarFormatoMensaje()
         {
-            string mensaje = Sello.mensaje;
-            string cadenaReturn="";
-            string asteriscos = "";
-            string middleLine = "";
-            int largo = mensaje.Length;
-            int i;
-            for (i=0;i<largo+2;i++)
+            string cadenaReturn = "";
+            string mensaje = "";
+            if (TryParse(Sello.mensaje, out mensaje))
             {
-                asteriscos += "*";
+                mensaje = Sello.mensaje;
+                string asteriscos = "";
+                string middleLine = "";
+                int largo = mensaje.Length;
+                int i;
+                for (i = 0; i < largo + 2; i++)
+                {
+                    asteriscos += "*";
+                }
+                middleLine += "\n*";
+                middleLine += mensaje;
+                middleLine += "*\n";
+                cadenaReturn += asteriscos;
+                cadenaReturn += middleLine;
+                cadenaReturn += asteriscos;
             }
-            middleLine +="\n*";
-            middleLine += mensaje;
-            middleLine += "*\n";
-            cadenaReturn += asteriscos;
-            cadenaReturn += middleLine;
-            cadenaReturn += asteriscos;
             return cadenaReturn;
+        }
+
+        private static bool TryParse(string mensaje, out string cadena)
+        {
+            cadena = "";
+            if(mensaje.Length==0)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+                cadena = mensaje;
+            }
         }
     }
 }

@@ -10,7 +10,10 @@ namespace EjercicioClase03
     {
         static void Main(string[] args)
         {
-            Sello.mensaje = "1";
+            Sello.mensaje = "";
+            Console.Write(Sello.Imprimir());
+            Console.WriteLine();
+            Sello.mensaje = "45";
             Console.Write(Sello.Imprimir());
             Console.ReadLine();
         }
