@@ -21,6 +21,13 @@ namespace EjercicioClase04
             objeto3.numero = 458;
             objeto3.fecha = DateTime.Now;
             Console.Write(Cosa.Mostrar(objeto3));
+
+            Cosa objeto4 = new Cosa("Hola");
+            objeto4.EstablecerValor("Hola");
+            Console.WriteLine(Cosa.Mostrar(objeto4));
+
+            Cosa objeto5 = new Cosa(); 
+
             Console.ReadLine();
         }
     }

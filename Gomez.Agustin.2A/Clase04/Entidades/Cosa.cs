@@ -4,13 +4,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EjercicioClase04
+namespace Entidades
 {
     class Cosa
     {
         public string cadena;
         public double numero;
         public DateTime fecha;
+
+        public void EstablecerValor(string cadena)
+        {
+            this.cadena = cadena;
+        }
+
+        public void EstablecerValor(string cadena, double numero)
+        {
+            this.EstablecerValor(cadena, numero);
+            this.numero = numero;
+        }
+
+        public void EstablecerValor(string cadena, double numero, DateTime fecha)
+        {
+            this.EstablecerValor(cadena, numero);
+            this.fecha = fecha;
+        }
 
         public static string Mostrar(Cosa objeto)
         {
