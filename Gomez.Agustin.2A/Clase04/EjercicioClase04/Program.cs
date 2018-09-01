@@ -11,22 +11,24 @@ namespace EjercicioClase04
         static void Main(string[] args)
         {
             Cosa objeto1 = new Cosa();
+            objeto1.EstablecerValor("Khe ase");
+            objeto1.EstablecerValor(24);
+            objeto1.EstablecerValor(DateTime.Now);
             Console.WriteLine(Cosa.Mostrar(objeto1));
 
             Cosa objeto2 = new Cosa("Jose");
+            objeto2.EstablecerValor("aaaa");
+            objeto2.EstablecerValor(558);
             Console.WriteLine(Cosa.Mostrar(objeto2));
 
             Cosa objeto3 = new Cosa();
-            objeto3.cadena = "HOla";
-            objeto3.numero = 458;
-            objeto3.fecha = DateTime.Now;
-            Console.Write(Cosa.Mostrar(objeto3));
+            
+            Console.WriteLine(Cosa.Mostrar(objeto3));
 
             Cosa objeto4 = new Cosa("Hola");
-            objeto4.EstablecerValor("Hola");
+            objeto4.EstablecerValor(8888);
             Console.WriteLine(Cosa.Mostrar(objeto4));
 
-            Cosa objeto5 = new Cosa(); 
 
             Console.ReadLine();
         }
