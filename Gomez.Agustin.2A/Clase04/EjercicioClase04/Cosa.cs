@@ -8,10 +8,13 @@ namespace EjercicioClase04
 {
     class Cosa
     {
+        #region Atributos
         public string cadena;
         public double numero;
         public DateTime fecha;
+        #endregion
 
+        #region Metodos
         public void EstablecerValor(string cadena)
         {
             this.cadena = cadena;
@@ -39,6 +42,11 @@ namespace EjercicioClase04
             return retorno;
         }
 
+        #endregion
+
+
+        #region Constructores
+        //si accedo al constructor por defecto , la cadena = "sin valor" , numero = 1.9  , fecha=DateTime.now;
         public Cosa()
         {
             this.cadena = "Sin valor";
@@ -46,11 +54,41 @@ namespace EjercicioClase04
             this.fecha = DateTime.Now;
         }
 
-        public Cosa(string c)
+        public Cosa(String c) : this()
         {
             this.cadena = c;
-            this.numero = 1.9;
+            // this.numero = 1.9;
+            //this.fecha = DateTime.Now;
+        }
+
+        public Cosa(string c, Int32 n) : this(c)
+        {
+            //this.cadena = c;
+            this.numero = n;
+            //this.fecha = DateTime.Now;
+        }
+
+        public Cosa(string c, Int32 n, DateTime d) : this(c, n)
+        {
+            //this.cadena = c;
+            // this.numero = n;
             this.fecha = DateTime.Now;
         }
+        #endregion
+
+
+        //public Cosa()
+        //{
+        //    this.cadena = "Sin valor";
+        //    this.numero = 1.9;
+        //    this.fecha = DateTime.Now;
+        //}
+
+        //public Cosa(string c)
+        //{
+        //    this.cadena = c;
+        //    this.numero = 1.9;
+        //    this.fecha = DateTime.Now;
+        //}
     }
 }
