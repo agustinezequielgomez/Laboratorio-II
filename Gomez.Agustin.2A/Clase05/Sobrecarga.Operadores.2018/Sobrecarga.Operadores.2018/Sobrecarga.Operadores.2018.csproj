@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{557A9F07-122B-4E2A-8D79-D33226C708C3}</ProjectGuid>
+    <ProjectGuid>{80BBF493-B652-42FA-A782-1A1CBC4E1D71}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EntidadesTest</RootNamespace>
-    <AssemblyName>EntidadesTest</AssemblyName>
+    <RootNamespace>Sobrecarga.Operadores._2018</RootNamespace>
+    <AssemblyName>Sobrecarga.Operadores.2018</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Entidades">
-      <HintPath>..\Entidades\obj\Debug\netstandard2.0\Entidades.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -45,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Numero.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

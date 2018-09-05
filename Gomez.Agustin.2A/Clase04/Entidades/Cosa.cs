@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    class Cosa
+    public class Cosa
     {
         public string cadena;
         public double numero;

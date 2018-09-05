@@ -10,7 +10,7 @@ namespace EntidadesTest
     {
         static void Main(string[] args)
         {
-            
+           
         }
     }
 }
