@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B2732D2B-96A0-47B2-8BD4-540202B8BCEE}</ProjectGuid>
+    <ProjectGuid>{D75641F3-4532-41BF-B2CA-229121637500}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ejercicio19</RootNamespace>
-    <AssemblyName>Ejercicio19</AssemblyName>
+    <RootNamespace>EjercicioClase06</RootNamespace>
+    <AssemblyName>EjercicioClase06</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,9 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ETipoTinta.cs" />
+    <Compile Include="Pluma.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sumador.cs" />
+    <Compile Include="Tinta.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
