@@ -63,6 +63,16 @@ namespace EjercicioClase06WF.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap mark_35780_960_720 {
+            get {
+                object obj = ResourceManager.GetObject("mark-35780_960_720", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap red_cross_symbol_62905 {
             get {
                 object obj = ResourceManager.GetObject("red-cross-symbol-62905", resourceCulture);

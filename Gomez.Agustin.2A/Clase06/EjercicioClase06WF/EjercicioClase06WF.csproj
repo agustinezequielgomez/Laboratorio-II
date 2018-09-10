@@ -95,5 +95,8 @@
   <ItemGroup>
     <None Include="Img\red-cross-symbol-62905.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Img\mark-35780_960_720.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -25,5 +25,10 @@ namespace EjercicioClase06WF
             FrmTinta frmTinta = new FrmTinta();
             frmTinta.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
