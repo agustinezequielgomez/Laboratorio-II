@@ -114,12 +114,12 @@ namespace Ejercicio21
             Celsius cel = new Celsius(0);
             cel = (Celsius)f;
             cel._cantidad += c.getCantidad();
-            return c;
+            return cel;
         }
 
         public static Celsius operator +(Celsius c1, Celsius c2)
         {
-
+            return c1._cantidad + c2._cantidad;
         }
 
         public static Celsius operator -(Celsius c, Kelvin k)
@@ -136,6 +136,11 @@ namespace Ejercicio21
             cel = (Celsius)f;
             cel._cantidad -= c.getCantidad();
             return c;
+        }
+
+        public static Celsius operator -(Celsius c1, Celsius c2)
+        {
+            return c1._cantidad - c2._cantidad;
         }
         #endregion
 

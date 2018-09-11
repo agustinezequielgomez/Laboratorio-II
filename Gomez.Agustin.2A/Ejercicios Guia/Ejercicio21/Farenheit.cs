@@ -90,6 +90,50 @@ namespace Ejercicio21
         }
         #endregion
 
+        #region Adicion/Sustraccion
+        public static Farenheit operator +(Farenheit f, Celsius c)
+        {
+            Farenheit far = new Farenheit(0);
+            far = (Farenheit) c;
+            far._cantidad += f._cantidad;
+            return far;
+        }
+
+        public static Farenheit operator +(Farenheit f, Kelvin k)
+        {
+            Farenheit far = new Farenheit(0);
+            far = (Farenheit)k;
+            far._cantidad += f._cantidad;
+            return far;
+        }
+
+        public static Farenheit operator +(Farenheit f1, Farenheit f2)
+        {
+            return f1._cantidad + f2._cantidad;
+        }
+
+        public static Farenheit operator -(Farenheit f, Celsius c)
+        {
+            Farenheit far = new Farenheit(0);
+            far = (Farenheit)c;
+            far._cantidad -= f._cantidad;
+            return far;
+        }
+
+        public static Farenheit operator -(Farenheit f, Kelvin k)
+        {
+            Farenheit far = new Farenheit(0);
+            far = (Farenheit)k;
+            far._cantidad -= f._cantidad;
+            return far;
+        }
+
+        public static Farenheit operator -(Farenheit f1, Farenheit f2)
+        {
+            return f1._cantidad - f2._cantidad;
+        }
+        #endregion
+
         #endregion
     }
 }

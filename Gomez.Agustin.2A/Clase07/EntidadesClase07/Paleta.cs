@@ -38,6 +38,35 @@ namespace EntidadesClase07
             retorno += cadenaAux;
             return retorno;
         }
+
+        private int ObtenerIndice()
+        {
+            int i;
+            int indice = -1;
+            for (i = 0; i < this._cantMaximaelementos; i++)
+            {
+                if (this._colores[i] == null)
+                {
+                    indice = i;
+                    break;
+                }
+            }
+            return indice;
+        }
+
+        private int ObtenerIndice(Tempera t)
+        {
+            int indice = -1;
+            int i;
+            for(i = 0; i < this._cantMaximaelementos; i++)
+            {
+                if(this._colores.GetValue(i) != null && this._colores[i] == t)
+                {
+                    indice = i;
+                }
+            }
+            return indice;
+        }
         #endregion
 
         #region Sobrecarga
@@ -49,6 +78,52 @@ namespace EntidadesClase07
         public static implicit operator Paleta(int cantidad)
         {
             return new Paleta(cantidad); ;
+        }
+
+        public static bool operator ==(Paleta p, Tempera t)
+        {
+
+              foreach (Tempera item in p._colores)
+                {
+                  if (!(Object.Equals(item, null)) && t == item)
+                  {
+                      return true;
+                  }        
+              }
+            return false;
+            /*for (int i = 0; i < p._cantMaximaelementos; i++)
+            {
+                if (p._colores.GetValue(i)!=null)
+                 {
+                     if (p._colores[i]==t)
+                      {
+                           return true;
+                      }
+                }
+                */
+        }
+
+        public static bool operator !=(Paleta p, Tempera t)
+        {
+            return !(p == t);
+        }
+
+        public static Paleta operator +(Paleta p, Tempera t)
+        {
+            int indice = p.ObtenerIndice(t);
+            if(indice != -1)
+            {
+                p._colores[indice] += t;
+            }
+            else
+            {
+                indice = p.ObtenerIndice();
+                if (indice != -1)
+                {
+                    p._colores[indice] = t;
+                }
+            }
+            return p;
         }
         #endregion
     }
