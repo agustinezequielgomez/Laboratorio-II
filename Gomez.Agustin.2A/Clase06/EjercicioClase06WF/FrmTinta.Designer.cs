@@ -104,10 +104,6 @@ namespace EjercicioClase06WF
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // tintaBindingSource
-            // 
-            this.tintaBindingSource.DataSource = typeof(EjercicioClase06WF.Tinta);
-            // 
             // FrmTinta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);

@@ -92,6 +92,51 @@ namespace Ejercicio21
         }
 
         #endregion
+
+        #region Adicion/Sustraccion
+        public static Kelvin operator +(Kelvin k, Celsius c)
+        {
+            Kelvin kel = new Kelvin(0);
+            kel = (Kelvin)c;
+            kel._cantidad += k._cantidad;
+            return kel;
+        }
+
+        public static Kelvin operator +(Kelvin k, Farenheit f)
+        {
+            Kelvin kel = new Kelvin(0);
+            kel = (Kelvin) f;
+            kel._cantidad += k._cantidad;
+            return kel;
+        }
+
+        public static Kelvin operator +(Kelvin k1, Kelvin k2)
+        {
+            return k1._cantidad + k2._cantidad;
+        }
+
+        public static Kelvin operator -(Kelvin k, Celsius c)
+        {
+            Kelvin kel = new Kelvin(0);
+            kel = (Kelvin)c;
+            kel._cantidad -= k._cantidad;
+            return kel;
+        }
+
+        public static Kelvin operator -(Kelvin k, Farenheit f)
+        {
+            Kelvin kel = new Kelvin(0);
+            kel = (Kelvin)f;
+            kel._cantidad -= k._cantidad;
+            return kel;
+        }
+
+        public static Kelvin operator -(Kelvin k1, Kelvin k2)
+        {
+            return k1._cantidad - k2._cantidad;
+        }
+
+        #endregion
         #endregion
     }
 }

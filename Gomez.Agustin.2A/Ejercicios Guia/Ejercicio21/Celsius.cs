@@ -99,6 +99,46 @@ namespace Ejercicio21
 
 
         #endregion
+
+        #region Adicion/Sustraccion
+        public static Celsius operator +(Celsius c, Kelvin k)
+        {
+            Celsius cel = new Celsius(0);
+            cel = (Celsius) k;
+            cel._cantidad += c.getCantidad();
+            return cel;
+        }
+
+        public static Celsius operator +(Celsius c, Farenheit f)
+        {
+            Celsius cel = new Celsius(0);
+            cel = (Celsius)f;
+            cel._cantidad += c.getCantidad();
+            return c;
+        }
+
+        public static Celsius operator +(Celsius c1, Celsius c2)
+        {
+
+        }
+
+        public static Celsius operator -(Celsius c, Kelvin k)
+        {
+            Celsius cel = new Celsius(0);
+            cel = (Celsius)k;
+            cel._cantidad -= c.getCantidad();
+            return cel;
+        }
+
+        public static Celsius operator -(Celsius c, Farenheit f)
+        {
+            Celsius cel = new Celsius(0);
+            cel = (Celsius)f;
+            cel._cantidad -= c.getCantidad();
+            return c;
+        }
+        #endregion
+
         #endregion
     }
 }
