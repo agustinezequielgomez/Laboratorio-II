@@ -72,7 +72,7 @@ namespace Billetes
         {
             Pesos peso = new Pesos();
             peso = (Pesos) d;
-            if (peso.getCantidad() == p.getCantidad())
+            if (peso.getCantidad() == (float)p.getCantidad())
             {
                 return true;
             }

@@ -82,7 +82,7 @@ namespace Billetes
 
         public static bool operator ==(Dolar d, Pesos p)
         {
-            if (d._cantidad * Pesos.getCotizacion() == p.getCantidad())
+            if (d._cantidad * Pesos.getCotizacion() == (float)p.getCantidad())
             {
                 return true;
             }
