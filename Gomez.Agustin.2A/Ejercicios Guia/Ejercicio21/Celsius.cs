@@ -43,7 +43,8 @@ namespace Ejercicio21
         {
             Farenheit far = new Farenheit(0);
             far = (Farenheit)c;
-            Kelvin kel = new Kelvin((far.getCantidad() + 459.67) * 1.8);
+            Kelvin kel = new Kelvin(0);
+            kel = (Kelvin) far;
             return kel;
         }
 
@@ -59,7 +60,7 @@ namespace Ejercicio21
         {
             Celsius cel = new Celsius(0);
             cel = (Celsius) f;
-            if(c.getCantidad() == cel.getCantidad())
+            if(c.getCantidad() == (float) cel.getCantidad())
             {
                 return true;
             }
@@ -69,11 +70,31 @@ namespace Ejercicio21
             }
         }
 
+        public static bool operator ==(Celsius c, Kelvin k)
+        {
+            Kelvin kel = new Kelvin(0);
+            kel = (Kelvin) c;
+            float aux = (float) kel.getCantidad();
+            return  aux  == (float)k.getCantidad();
+        }
 
+        public static bool operator ==(Celsius c1, Celsius c2)
+        {
+            return c1.getCantidad() == c2.getCantidad();        }
 
         public static bool operator !=(Celsius c, Farenheit f)
         {
             return !(c == f);
+        }
+
+        public static bool operator !=(Celsius c, Kelvin k)
+        {
+            return !(c == k);
+        }
+
+        public static bool operator !=(Celsius c1, Celsius c2)
+        {
+            return !(c1 == c2);
         }
 
 

@@ -99,7 +99,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioClase06WF", "Clase
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio20", "Ejercicios Guia\Ejercicio20\Ejercicio20.csproj", "{CC4F4EAD-F614-413C-9064-A216B25FE4DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio21", "Ejercicio21\Ejercicio21.csproj", "{768340BA-AFCE-4CCB-BE4C-6334D7568A73}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio21", "Ejercicios Guia\Ejercicio21\Ejercicio21.csproj", "{768340BA-AFCE-4CCB-BE4C-6334D7568A73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
