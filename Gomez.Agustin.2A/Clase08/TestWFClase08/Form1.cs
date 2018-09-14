@@ -47,7 +47,7 @@ namespace TestWFClase08
         private void button1_Click(object sender, EventArgs e)
         {
             frmTempera frm = new frmTempera();
-            frm.Show();
+            frm.ShowDialog();
             this.miPaleta += frm.miTempera;
             this.textBox1.Text = (string) miPaleta;
         }

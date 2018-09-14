@@ -14,7 +14,7 @@ namespace Ejercicio22
             int[] restos = new int[numero / 8];
             int divisiones = 0;
             string binario = "";
-            while (numero > 0)
+            while (numero >= 1)
             {
                 restos[divisiones] = (numero % 2);
                 numero = numero / 2;

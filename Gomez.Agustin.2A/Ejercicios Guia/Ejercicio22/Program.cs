@@ -17,7 +17,7 @@ namespace Ejercicio22
 
             Console.WriteLine(nd1._numero);
             double aux = Conversor.BinarioDecimal(nb1._numero);
-            string aux2 = Conversor.DecimalBinario(1547);
+            string aux2 = Conversor.DecimalBinario(65);
             Console.WriteLine(aux);
             Console.WriteLine(aux2);
 

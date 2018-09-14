@@ -45,7 +45,7 @@ namespace EntidadesClase08
             int indice = -1;
             for (i = 0; i < this._cantMaximaelementos; i++)
             {
-                if (this._colores[i] == null)
+                if (!Object.Equals(this._colores[i],null))
                 {
                     indice = i;
                     break;
@@ -60,7 +60,7 @@ namespace EntidadesClase08
             int i;
             for(i = 0; i < this._cantMaximaelementos; i++)
             {
-                if(this._colores.GetValue(i) != null && this._colores[i] == t)
+                if(!(Object.Equals(this._colores[indice],null)) && this._colores[i] == t)
                 {
                     indice = i;
                 }
