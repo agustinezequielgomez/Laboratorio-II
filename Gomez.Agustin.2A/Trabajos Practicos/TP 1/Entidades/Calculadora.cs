@@ -6,9 +6,19 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    class Calculadora
+    /// <summary>
+    /// Clase que se encarga de realizar operaciones entre datos de tipo Numero
+    /// </summary>
+    public class Calculadora
     {
         #region Metodos
+        /// <summary>
+        /// Metodo que opera dos valores de tipo Numero segun la operacion aricmetica basica seleccionada
+        /// </summary>
+        /// <param name="num1">Primer dato de tipo Numero que sera operado</param>
+        /// <param name="num2">Segundp dato de tipo Numero que sera operado</param>
+        /// <param name="operador">Operacion aricmetica a realizar (+,-,*,/)</param>
+        /// <returns>Retorna un valor de tipo Double con el resultado de la operacion</returns>
         public double Operar(Numero num1, Numero num2, string operador)
         {
             double retorno = 0;
@@ -32,6 +42,11 @@ namespace Entidades
             return retorno;
         }
 
+        /// <summary>
+        /// Metodo que valida que el operador ingresado sea correcto
+        /// </summary>
+        /// <param name="operador">Operador a validar</param>
+        /// <returns>Retorna el operador ingresado si la validacion es correcta. Caso contrario retorna el operador +</returns>
         private static string ValidarOperador(string operador)
         {
             string retorno;

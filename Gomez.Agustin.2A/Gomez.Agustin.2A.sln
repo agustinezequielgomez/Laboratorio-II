@@ -125,6 +125,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TP 1", "TP 1", "{78D89EC8-C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Trabajos Practicos\TP 1\Entidades\Entidades.csproj", "{631B9C4A-B575-4217-AEFF-108DC433927F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiCalculadora", "Trabajos Practicos\TP 1\MiCalculadora\MiCalculadora.csproj", "{BE7E3251-5516-4438-B6F9-85F6F4F023D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -491,6 +493,14 @@ Global
 		{631B9C4A-B575-4217-AEFF-108DC433927F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{631B9C4A-B575-4217-AEFF-108DC433927F}.Release|x86.ActiveCfg = Release|Any CPU
 		{631B9C4A-B575-4217-AEFF-108DC433927F}.Release|x86.Build.0 = Release|Any CPU
+		{BE7E3251-5516-4438-B6F9-85F6F4F023D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE7E3251-5516-4438-B6F9-85F6F4F023D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE7E3251-5516-4438-B6F9-85F6F4F023D8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BE7E3251-5516-4438-B6F9-85F6F4F023D8}.Debug|x86.Build.0 = Debug|Any CPU
+		{BE7E3251-5516-4438-B6F9-85F6F4F023D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE7E3251-5516-4438-B6F9-85F6F4F023D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE7E3251-5516-4438-B6F9-85F6F4F023D8}.Release|x86.ActiveCfg = Release|Any CPU
+		{BE7E3251-5516-4438-B6F9-85F6F4F023D8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -554,6 +564,7 @@ Global
 		{561F7891-CA50-42F4-B4A5-AC2FB410BBFE} = {8E9A0690-DCA4-4EB1-BA37-A5DCDAD6EF5B}
 		{78D89EC8-CE50-4474-B92B-BFE29A427E85} = {F9FE2E41-265E-46B3-B61D-CBB1F258C9EC}
 		{631B9C4A-B575-4217-AEFF-108DC433927F} = {78D89EC8-CE50-4474-B92B-BFE29A427E85}
+		{BE7E3251-5516-4438-B6F9-85F6F4F023D8} = {78D89EC8-CE50-4474-B92B-BFE29A427E85}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B63AE23B-0FAE-4D37-9579-EBD1CBA8EBD3}
