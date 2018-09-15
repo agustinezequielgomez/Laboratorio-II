@@ -19,7 +19,7 @@ namespace Entidades
         /// <param name="num2">Segundp dato de tipo Numero que sera operado</param>
         /// <param name="operador">Operacion aricmetica a realizar (+,-,*,/)</param>
         /// <returns>Retorna un valor de tipo Double con el resultado de la operacion</returns>
-        public double Operar(Numero num1, Numero num2, string operador)
+        public static double Operar(Numero num1, Numero num2, string operador)
         {
             double retorno = 0;
             switch (ValidarOperador(operador))

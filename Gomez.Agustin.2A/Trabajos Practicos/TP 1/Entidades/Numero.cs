@@ -66,34 +66,35 @@ namespace Entidades
         /// </summary>
         /// <param name="binario">Numero binario en formato string</param>
         /// <returns>Retorna el numero convertido a decimal o "Valor invalido" si el valor ingresado es incorrecto</returns>
-        public string BinarioDecimal(string binario)
+        public static string BinarioDecimal(string binario)
         {
             int[] cadenaInt = new int[binario.Length];
             string retorno = "";
+            double numero = 0;
             bool flag = true;
             int i;
             for (i = 0; i < binario.Length; i++)
             {
-                if (binario[i] != '1' || binario[i] != '0')
+                cadenaInt[i] = (int)char.GetNumericValue(binario[i]);
+                if (cadenaInt[i] != 0 && cadenaInt[i] != 1)
                 {
                     flag = false;
+                    break;
                 }
             }
             if (flag == true)
             {
                 for (i = 0; i < binario.Length; i++)
                 {
-                    cadenaInt[i] = (int)char.GetNumericValue(binario[i]);
+                    numero += (cadenaInt[i] * Math.Pow(2, binario.Length - i - 1));
                 }
-                for (i = 0; i < binario.Length; i++)
-                {
-                    retorno += (cadenaInt[i] * Math.Pow(2, binario.Length - i - 1)).ToString();
-                }
+                retorno = numero.ToString();
             }
             else
             {
                 retorno = "Valor invalido";
             }
+
             return retorno;
         }
 
@@ -102,7 +103,7 @@ namespace Entidades
         /// </summary>
         /// <param name="numero">Numero decimal de tipo string</param>
         /// <returns>Retorna un numero decimal de tipo string si el valor es correcto. Si es incorrecto retorna "Valor invalido"</returns>
-        public string DecimalBinario(string numero)
+        public static string DecimalBinario(string numero)
         {
             string retorno;
             double numeroDouble;
@@ -122,7 +123,7 @@ namespace Entidades
         /// </summary>
         /// <param name="entero">Numero de tipo double que sera convertido</param>
         /// <returns>Retorna el numero convertido a binario en tipo string</returns>
-        public string DecimalBinario(double entero)
+        public static string DecimalBinario(double entero)
         {
             int numero = (int)entero;
             string binario = "";
@@ -131,7 +132,9 @@ namespace Entidades
                 binario += (numero % 2).ToString();
                 numero = numero / 2;
             }
-            return binario;
+            char[] charArray = binario.ToCharArray();
+            Array.Reverse(charArray);
+            return new string(charArray);
         }
 
         /// <summary>
