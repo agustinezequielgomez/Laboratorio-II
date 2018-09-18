@@ -26,7 +26,7 @@ namespace EntidadesClase08
         #region Metodos
         private string Mostrar()
         {
-            return "Marca: " + this._marca + "\nColor: " + this._color + "\nCantidad: " + this._cantidad;
+            return "\r\nMarca:" + this._marca + ". Color:" + this._color + ".Cantidad:" + this._cantidad;
         }
         #endregion
 
