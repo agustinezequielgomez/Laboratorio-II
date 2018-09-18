@@ -32,6 +32,11 @@ namespace TestWFClase08
             this.comboBox2.SelectedItem = "Seleccione uno";
         }
 
+        public frmTempera(Tempera tmp) : this()
+        {
+            this._miTempera = tmp;
+        }
+
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
 
@@ -50,6 +55,7 @@ namespace TestWFClase08
         private void button1_Click(object sender, EventArgs e)
         {
             _miTempera = new Tempera(sbyte.Parse(this.textBox2.Text),(ConsoleColor)this.comboBox2.SelectedItem,this.textBox1.Text);
+            this.DialogResult = DialogResult.OK;
         }
     }
 }

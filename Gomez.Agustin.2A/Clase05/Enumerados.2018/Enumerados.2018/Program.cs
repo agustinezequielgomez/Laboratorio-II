@@ -23,7 +23,7 @@ namespace Enumerados._2018
             MiEnumerado b = MiEnumerado.Enum2;
 
 
-            b = (MiEnumerado) Enum.Parse(typeof(MiEnumerado),"asdfasdfasdfasdfasdfasdfasdf");
+            b = (MiEnumerado) Enum.Parse(typeof(MiEnumerado),"2");
 
             //como asignarlo
 
@@ -70,7 +70,7 @@ namespace Enumerados._2018
                     break;
             }
 
-            ConsoleColor z;
+            ConsoleColor z = ConsoleColor.White;
 
             switch (z)
             {

@@ -81,10 +81,5 @@ namespace MiCalculadora
         {
             lblResultado.Text = Numero.BinarioDecimal(txtNumero1.Text);
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

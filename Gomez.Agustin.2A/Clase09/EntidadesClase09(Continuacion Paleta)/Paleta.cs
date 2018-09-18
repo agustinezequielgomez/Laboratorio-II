@@ -29,11 +29,16 @@ namespace EntidadesClase08
         #region Metodos
         private string Mostrar()
         {
-            string retorno = "Cantidad maxima de elementos: " + this._cantMaximaelementos + "\n\nColores utilizados en la paleta:\n ";
+            string retorno = "Cantidad maxima de elementos: " + this._cantMaximaelementos + "\r\nColores utilizados en la paleta: ";
             string cadenaAux = "";
+            string cadenaAux2 = "";
             foreach (Tempera temperas in this._colores)
             {
-                cadenaAux += temperas;
+                if(!(Object.Equals(temperas,null)))
+                {
+                    cadenaAux2 = temperas;
+                    cadenaAux += cadenaAux2;
+                }
             }
             retorno += cadenaAux;
             return retorno;
@@ -45,7 +50,7 @@ namespace EntidadesClase08
             int indice = -1;
             for (i = 0; i < this._cantMaximaelementos; i++)
             {
-                if (!Object.Equals(this._colores[i],null))
+                if (Object.Equals(this._colores[i],null))
                 {
                     indice = i;
                     break;
@@ -60,7 +65,7 @@ namespace EntidadesClase08
             int i;
             for(i = 0; i < this._cantMaximaelementos; i++)
             {
-                if(!(Object.Equals(this._colores[indice],null)) && this._colores[i] == t)
+                if(!(Object.Equals(this._colores[i],null)) && this._colores[i] == t)
                 {
                     indice = i;
                 }
@@ -110,10 +115,14 @@ namespace EntidadesClase08
 
         public static Paleta operator +(Paleta p, Tempera t)
         {
-            int indice = p.ObtenerIndice(t);
-            if(indice != -1)
+            int indice = -1;
+            if(p == t)
             {
-                p._colores[indice] += t;
+                indice = p.ObtenerIndice(t);
+                if(indice!=-1)
+                {
+                    p._colores[indice] += t;
+                }
             }
             else
             {
@@ -143,6 +152,31 @@ namespace EntidadesClase08
                 }
             }
             return p;
+        }
+        #endregion
+
+        #region Indexador
+        public Tempera this[int indice]
+        {
+            get
+            {
+                if(indice >= 0 && !(Object.Equals(this._colores[indice],null)) && indice < this._cantMaximaelementos)
+                {
+                    return this._colores[indice];
+                }
+                else
+                {
+                    return null;
+                }
+            }
+
+            set
+            {
+                if(indice >= 0 && indice < this._cantMaximaelementos)
+                {
+                    this._colores[indice] = value;
+                }
+            }
         }
         #endregion
     }

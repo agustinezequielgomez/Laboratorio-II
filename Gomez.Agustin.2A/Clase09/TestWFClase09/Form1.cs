@@ -41,15 +41,34 @@ namespace TestWFClase08
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            int i;
+            string tempera = "";
+            string seleccionado = "";
+            string[] todoElTexto = textBox1.Lines;
+            seleccionado = textBox1.SelectedText;
+            for(i = 2;i < textBox1.Lines.Count();i++)
+            {
+                if(todoElTexto[i] == seleccionado)
+                {
+                    i -= 2;
+                    MessageBox.Show("\nTempera seleccionada: " + seleccionado + "\nIndice: " + i);
+                    break;
+                }
+            }
+            frmTempera frm = new frmTempera(miPaleta[i]);
+            DialogResult resultado = frm.ShowDialog();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             frmTempera frm = new frmTempera();
-            frm.ShowDialog();
-            this.miPaleta += frm.miTempera;
-            this.textBox1.Text = (string) miPaleta;
+            DialogResult resultado = frm.ShowDialog();
+            if(resultado == DialogResult.OK)
+            {
+                this.miPaleta += frm.miTempera;
+                this.textBox1.Text = (string)miPaleta;
+            }
         }
 
         private void agregarPaletaToolStripMenuItem_Click(object sender, EventArgs e)
