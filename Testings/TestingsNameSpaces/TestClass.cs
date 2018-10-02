@@ -4,10 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Testing
+namespace TestingsNameSpaces
 {
-    class Programo
+    sealed class Programo
     {
         public static int numero;
+        public string cadena;
+        public Programo()
+        {
+            cadena = "hola";
+        }
+
+        static Programo()
+        {
+            numero = 45;
+        }
+        
     }
 }
