@@ -53,6 +53,34 @@ namespace EntidadesClase10
         {
             return "\r\nMarca:" + this._marca + ". Color:" + this._color + ".Cantidad:" + this._cantidad;
         }
+
+        public static int CompararNombre(Tempera t1, Tempera t2)
+        {
+            return string.Compare(t1.Marca, t2.Marca);
+        }
+
+        public static int CompararColor(Tempera t1, Tempera t2)
+        {
+            return string.Compare(Enum.GetName(typeof(ConsoleColor), t1.Color), Enum.GetName(typeof(ConsoleColor), t2.Color));
+        }
+
+        public static int CompararCantidad(Tempera t1, Tempera t2)
+        {
+            int retorno;
+            if(t1.Cantidad > t2.Cantidad)
+            {
+                retorno = 1;
+            }
+            else if(t1.Cantidad < t2.Cantidad)
+            {
+                retorno = -1;
+            }
+            else
+            {
+                retorno = 0;
+            }
+            return retorno;
+        }
         #endregion
 
         #region Sobrecargas

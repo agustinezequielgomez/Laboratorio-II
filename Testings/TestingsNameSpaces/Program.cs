@@ -13,7 +13,7 @@ namespace TestingsNameSpaces
         static void Main(string[] args)
         {
             Programo obj1 = new Programo();
-            Programo obj2 = new Programo();
+            Console.WriteLine(obj1["aab"]);
             Console.ReadLine();
         }
     }

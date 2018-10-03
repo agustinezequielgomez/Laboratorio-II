@@ -13,6 +13,24 @@ namespace EntidadesClase10
         private int _cantMaximaelementos;
         #endregion
 
+        #region Propiedades
+        public int cantidadMaximaElementos
+        {
+            get
+            {
+                return this._cantMaximaelementos;
+            }
+        }
+
+        public List<Tempera> Colores
+        {
+            get
+            {
+                return this._colores;
+            }
+        }
+        #endregion
+
         #region Constructor
         private PaletaColeccion() : this(5)
         {

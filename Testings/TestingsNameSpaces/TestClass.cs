@@ -6,19 +6,17 @@ using System.Threading.Tasks;
 
 namespace TestingsNameSpaces
 {
-    sealed class Programo
+    public class Programo
     {
-        public static int numero;
-        public string cadena;
-        public Programo()
+        private int[] _array;
+        public int this[string indice]
         {
-            cadena = "hola";
+            get { return this._array[indice]; }
         }
 
-        static Programo()
+        public Programo()
         {
-            numero = 45;
+            this._array = new int[100];
         }
-        
     }
 }

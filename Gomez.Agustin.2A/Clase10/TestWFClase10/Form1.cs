@@ -22,6 +22,11 @@ namespace TestWFClase08
             this.textBox1.Multiline = true;
             this.button1.Text = "+";
             this.button2.Text = "-";
+            this.comboBox1.Items.Add("");
+            this.comboBox1.Items.Add("Marca");
+            this.comboBox1.Items.Add("Cantidad");
+            this.comboBox1.Items.Add("Color");
+            this.comboBox1.SelectedItem = "";
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
@@ -57,6 +62,12 @@ namespace TestWFClase08
             }
             frmTempera frm = new frmTempera(miPaleta[i]);
             DialogResult resultado = frm.ShowDialog();
+            if(resultado == DialogResult.OK)
+            {
+                miPaleta.Colores.Remove(miPaleta[i]);
+                this.textBox1.Clear();
+                this.textBox1.Text = (string)miPaleta;
+            }
             
         }
 
@@ -75,6 +86,69 @@ namespace TestWFClase08
         {
             this.groupBox1.Visible = true;
             this.agregarPaletaToolStripMenuItem.Enabled = false;
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if(radioButton1.Checked)
+            {
+                if (this.comboBox1.Text == "Marca")
+                {
+                    miPaleta.Colores.Sort(Tempera.CompararNombre);
+                }
+                else if (this.comboBox1.Text == "Color")
+                {
+                    miPaleta.Colores.Sort(Tempera.CompararColor);
+                }
+                else if (this.comboBox1.Text == "Cantidad")
+                {
+                    miPaleta.Colores.Sort(Tempera.CompararCantidad);
+                }
+            }
+            else if(radioButton2.Checked)
+            {
+                if (this.comboBox1.Text == "Marca")
+                {
+                    miPaleta.Colores.Sort(Tempera.CompararNombre);
+                    miPaleta.Colores.Reverse();
+                }
+                else if (this.comboBox1.Text == "Color")
+                {
+                    miPaleta.Colores.Sort(Tempera.CompararColor);
+                    miPaleta.Colores.Reverse();
+                }
+                else if (this.comboBox1.Text == "Cantidad")
+                {
+                    miPaleta.Colores.Sort(Tempera.CompararCantidad);
+                    miPaleta.Colores.Reverse();
+                }
+            }
+            this.textBox1.Clear();
+            this.textBox1.Text = (string)miPaleta;
+
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            if(this.radioButton2.Checked == true)
+            {
+                this.radioButton2.Checked = false;
+                this.radioButton1.Checked = true;
+            }
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.radioButton1.Checked == true)
+            {
+                this.radioButton1.Checked = false;
+                this.radioButton2.Checked = true;
+            }
         }
     }
 }
