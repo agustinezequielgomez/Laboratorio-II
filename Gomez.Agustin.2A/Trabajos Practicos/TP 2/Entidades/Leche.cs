@@ -3,56 +3,80 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using System.Drawing;
 
 namespace Entidades_2018
 {
-    class Leche : Producto
+    public class Leche : Producto
     {
-        public enum ETipo { Entera, Descremada }
-        ETipo tipo;
-
+      
+        #region Constructores
         /// <summary>
-        /// Por defecto, TIPO será ENTERA
+        /// Nueva instancia de un objeto Leche. Por defecto, TIPO será ENTERA
         /// </summary>
-        /// <param name="marca"></param>
-        /// <param name="patente"></param>
-        /// <param name="color"></param>
-        public Leche(EMarca marca, string patente, ConsoleColor color) : base(patente, marca, color)
-        {
-            tipo = ETipo.Entera;
-
+        /// <param name="marca">Marca de la leche</param>
+        /// <param name="patente">Codigo de barras de la leche</param>
+        /// <param name="color">Color del empaque de la leche</param>
+        public Leche(EMarca marca, string patente, ConsoleColor color) : this(marca,patente,color,ETipo.Entera)
+        { 
         }
 
-                public Leche(EMarca marca, string patente, ConsoleColor color, ETipo tipo) : this(marca,patente,color)
+        
+        /// <summary>
+        /// Nueva instancia de un objeto Leche que acepta especificacion del TIPO
+        /// </summary>
+        /// <param name="marca">Marca de la leche</param>
+        /// <param name="patente">Codigo de barras de la leche</param>
+        /// <param name="color">Color del empaque de la leche</param>
+        /// <param name="tipo">Tipo de leche</param>
+        public Leche(EMarca marca, string patente, ConsoleColor color, ETipo tipo) : base(patente, marca, color)
         {
             this.tipo = tipo;
         }
+        #endregion
 
+        #region Enumerados
         /// <summary>
-        /// Las leches tienen 20 calorías
+        /// Enumerado que define los tipos posibles de Leche
+        /// </summary>
+        public enum ETipo
+        {
+            Entera,
+            Descremada
+        }
+        ETipo tipo;
+        #endregion
+
+        #region Propiedades
+        /// <summary>
+        /// ReadOnly: Retorna la cantidad de calorias de la leche (Las leches tienen 20 calorías)
         /// </summary>
         protected override short CantidadCalorias
         {
             get
             {
-                return this.CantidadCalorias;
+                return 20;
             }
         }
+        #endregion
 
-        public override sealed string Mostrar()
+        #region Metodos
+        /// <summary>
+        /// Publica todos los datos de la leche
+        /// </summary>
+        /// <returns>Retorna los datos de la leche</returns>
+        public override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
 
             sb.AppendLine("LECHE");
-            sb.AppendLine(this);
-            sb.AppendLine("CALORIAS : {0}", this.CantidadCalorias);
-            sb.AppendLine("TIPO : " + this.tipo);
-            sb.AppendLine("");
+            sb.AppendLine(base.Mostrar());
+            sb.AppendFormat("CALORIAS : {0}", this.CantidadCalorias);
+            sb.AppendFormat("TIPO : {0}\r\n\n", this.tipo.ToString());
             sb.AppendLine("---------------------");
 
-            return sb;
+            return sb.ToString();
         }
+        #endregion
     }
 }
