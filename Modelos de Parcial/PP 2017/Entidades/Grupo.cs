@@ -11,7 +11,7 @@ namespace Entidades
         #region Atributos
         private List<Mascota> manada;
         private string nombre;
-        private TipoManada tipo;
+        private  static TipoManada tipo;
 
         public enum TipoManada
         {
@@ -21,32 +21,34 @@ namespace Entidades
         #endregion
 
         #region Propiedades
-        public TipoManada Tipo
+        public static TipoManada Tipo
         {
             set
             {
-                this.tipo = value;
+                Grupo.tipo = value;
             }
         }
         #endregion
 
         #region Constructores
+        static Grupo()
+        {
+            Grupo.tipo = TipoManada.Unica;
+        }
+
         private Grupo()
         {
-            this.Tipo = TipoManada.Unica;
             manada = new List<Mascota>();
-
         }
 
         public Grupo(string nombre) : this()
         {
             this.nombre = nombre;
-            this.tipo = TipoManada.Unica;
         }
 
         public Grupo(string nombre, TipoManada tipo) : this(nombre)
         {
-            this.Tipo = tipo;
+            Grupo.Tipo = tipo;
         }
         #endregion
 
@@ -54,7 +56,7 @@ namespace Entidades
         public static implicit operator string(Grupo e)
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendFormat("{0} {1}\n",e.nombre,e.tipo);
+            sb.AppendFormat("{0} {1}\n",e.nombre,Grupo.tipo);
             sb.AppendLine("Integrantes: ");
             foreach(Mascota mascota in e.manada)
             {

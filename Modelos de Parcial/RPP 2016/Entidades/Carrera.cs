@@ -25,6 +25,20 @@ namespace Entidades
         }
         #endregion
 
+        #region Metodos
+        public string MostrarCarrera(Carrera c)
+        {
+            int i;
+            StringBuilder sb = new StringBuilder();
+            sb.AppendFormat("CARRERA\nCantidad de competidores {0}\nCompetidores:\n", this._corredoresMax);
+            for(i=0;i<this._animales.Count;i++)
+            {
+                
+            }
+            return "ASDASD";
+        }
+        #endregion
+
         #region Operadores
         public static bool operator ==(Carrera c, Animal a)
         {

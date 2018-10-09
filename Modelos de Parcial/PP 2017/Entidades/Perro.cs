@@ -75,7 +75,12 @@ namespace Entidades
 
         public override bool Equals(object obj)
         {
-            return (this == (Perro)obj);
+            bool retorno = false;
+            if(obj is Perro)
+            {
+                retorno = (this == (Perro)obj);
+            }
+            return retorno;
         }
         #endregion
 
