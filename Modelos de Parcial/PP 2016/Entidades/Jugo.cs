@@ -6,11 +6,18 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    class Jugo : Producto
+    public class Jugo : Producto
     {
         #region Atributos
         protected ESaborJugo _sabor;
         protected static bool DeConsumo;
+
+        public enum ESaborJugo
+        {
+            Asqueroso,
+            Pasable,
+            Rico
+        }
         #endregion
 
         #region Constructores

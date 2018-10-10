@@ -6,12 +6,31 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    abstract class Producto
+    public abstract class Producto
     {
         #region Atributos
         protected int _codigoBarra;
         protected EMarcaProducto _marca;
         protected float _precio;
+
+        public enum EMarcaProducto
+        {
+            Manaos,
+            Pitusas,
+            Naranju,
+            Diversion,
+            Swift,
+            Favorita
+        }
+
+        public enum ETipoProducto
+        {
+            Galletita,
+            Gaseosa,
+            Jugo,
+            Harina,
+            Todos
+        }
         #endregion
 
         #region Propiedades

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    class Galletita : Producto
+    public class Galletita : Producto
     {
         #region Atributos
         protected float _peso;
