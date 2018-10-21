@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Ejercicio42
 {
-    class ThrowDivide
+    class MiException : Exception
     {
-        public static void Metodo()
+
+        public MiException(string mensaje, Exception e) : base(mensaje, e)
         {
-            throw new DivideByZeroException();
+
         }
     }
 }
