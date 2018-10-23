@@ -44,19 +44,18 @@ namespace _06_Excepciones_2010
                     {
                         throw new ExcepcionDemasiadosItems();
                     }
-                else
-                    for (int j = 0; j < CantIteraciones; j++)
-                    {
-                        MiArray[j] = j + 1;
-                    }
+                    else
+                        for (int j = 0; j < CantIteraciones; j++)
+                        {
+                            MiArray[j] = j + 1;
+                        }
             }
             finally
             {
                 Console.WriteLine("No importa lo que suceda, por el finally siempre pasa.");
                 Console.WriteLine("Finally de GenerarExcepcion");
-                Console.ReadLine(); 
+                Console.ReadLine();
             }
-
         }
     }
 }

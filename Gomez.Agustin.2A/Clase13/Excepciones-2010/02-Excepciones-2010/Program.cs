@@ -50,10 +50,10 @@ namespace _02_Excepciones_2010
             //}
             //catch (Exception e)
             //{
-                
+
             //    Console.WriteLine(e.StackTrace);
             //    Console.ReadLine();
-            
+
             //}
         }
         static void Funcion4()

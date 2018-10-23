@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejercicio36
+namespace Ejercicio43
 {
     class Competencia
     {
@@ -78,28 +78,39 @@ namespace Ejercicio36
         public static bool operator ==(Competencia c, VehiculoDeCarrera a)
         {
             bool retorno = false;
-            if(c.Tipo == TipoCompetencia.F1 && a is AutoF1)
+            try
             {
-                foreach (AutoF1 item in c.competidores)
+                if (c.Tipo == TipoCompetencia.F1 && a is AutoF1)
                 {
-                    if(item == ((AutoF1)a))
+                    foreach (AutoF1 item in c.competidores)
                     {
-                        retorno = true;
-                        break;
+                        if (item == ((AutoF1)a))
+                        {
+                            retorno = true;
+                            break;
+                        }
                     }
                 }
-            }
-            else if(c.Tipo == TipoCompetencia.MotoCross && a is MotoCross)
-            {
-                foreach (MotoCross item in c.competidores)
+                else if (c.Tipo == TipoCompetencia.MotoCross && a is MotoCross)
                 {
-                    if (item == ((MotoCross)a))
+                    foreach (MotoCross item in c.competidores)
                     {
-                        retorno = true;
-                        break;
+                        if (item == ((MotoCross)a))
+                        {
+                            retorno = true;
+                            break;
+                        }
                     }
                 }
+                else
+                {
+                    throw new CompetenciaNoDisponibleException("\nEl vehiculo no corresponde a la competencia", "Clase Competencia", "Metodo ==");
+                }
+            }catch(CompetenciaNoDisponibleException e)
+            {
+                throw e;
             }
+
 
             return retorno;
         }
@@ -126,14 +137,22 @@ namespace Ejercicio36
             bool retorno = false;
             if(c.competidores.Count < c.cantidadCompetidores)
             {
-                if (c!=a)
+                try
                 {
-                    a.EnCompetencia = true;
-                    a.VueltasRestantes = c.cantidadVuelas;
-                    a.CantidadCombustible = (short)random.Next(15, 100);
-                    retorno = true;
-                    c.competidores.Add(a); 
+                    if (!(c == a))
+                    {
+                        a.EnCompetencia = true;
+                        a.VueltasRestantes = c.cantidadVuelas;
+                        a.CantidadCombustible = (short)random.Next(15, 100);
+                        retorno = true;
+                        c.competidores.Add(a);
+                    }
                 }
+                catch(CompetenciaNoDisponibleException e)
+                {
+                    throw new CompetenciaNoDisponibleException("\nCompetencia incorrecta", "Clase competencia", "Metodo operador +", e);
+                }
+
             }
             return retorno;
 

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejercicio36
+namespace Ejercicio43
 {
     class MotoCross : VehiculoDeCarrera
     {

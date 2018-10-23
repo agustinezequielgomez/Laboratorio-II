@@ -37,20 +37,20 @@ namespace Ejercicio43
 
         }
 
-        public CompetenciaNoDisponibleException(string mensaje, string clase, string metodo, Exception innerException) : base(mensaje,innerException)
+        public CompetenciaNoDisponibleException(string mensaje, string clase, string metodo, CompetenciaNoDisponibleException innerException) : base(mensaje,innerException)
         {
-            this.nombreClase = clase;
+            this.Source = this.nombreClase = clase;
             this.nombreMetodo = metodo;
         }
         #endregion
 
-        #region Constructores
+        #region Metodos
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendFormat("\nExcepcion en el metodo {0} de la clase {1}:\n", this.NombreMetodo, this.NombreClase);
+            sb.AppendFormat("\nExcepcion en el metodo {0} de la clase {1}:", this.NombreMetodo, this.NombreClase);
             sb.AppendLine(this.Message);
-            sb.AppendFormat("{0}\t",this.Message);
+            sb.AppendFormat("\nExcepcion original: {0}\tClase: {1}",this.InnerException.Message,this.InnerException.Source);
             return sb.ToString();
         }
         #endregion
