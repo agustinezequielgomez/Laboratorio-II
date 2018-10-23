@@ -159,7 +159,7 @@ namespace Ejercicio41
                     throw new CentralitaException("\nLlamada ya existente", "\nClase llamada", "\nMetodo operador +");
                 }
             }
-            catch(CentralitaException e)
+            catch (CentralitaException e)
             {
                 Console.Write(e.Message);
                 Console.Write(e.NombreClase);

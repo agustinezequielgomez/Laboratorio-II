@@ -25,13 +25,7 @@ namespace Entidades
         #region Metodos
         public bool Agregar(Auto a)
         {
-            bool retorno = false;
-            if(this._lista.Count < this._capacidadMaxima)
-            {
-                this._lista.Add(a);
-                retorno = true;
-            }
-            return retorno;
+            return this + a;
         }
 
         private int GetIndice(Auto a)
@@ -51,14 +45,7 @@ namespace Entidades
 
         public bool Remover(Auto a)
         {
-            bool retorno = false;
-            int indice = this.GetIndice(a);
-            if(indice !=-1)
-            {
-                this._lista.RemoveAt(indice);
-                retorno = true;
-            }
-            return retorno;
+            return this - a;
         }
 
         public override string ToString()
@@ -77,12 +64,25 @@ namespace Entidades
         #region Operadores
         public static bool operator +(DepositoDeAutos d, Auto a)
         {
-            return d.Agregar(a);
+            bool retorno = false;
+            if (d._lista.Count < d._capacidadMaxima)
+            {
+                d._lista.Add(a);
+                retorno = true;
+            }
+            return retorno;
         }
 
         public static bool operator -(DepositoDeAutos d, Auto a)
         {
-            return d.Remover(a);
+            bool retorno = false;
+            int indice = d.GetIndice(a);
+            if (indice != -1)
+            {
+                d._lista.RemoveAt(indice);
+                retorno = true;
+            }
+            return retorno;
         }
         #endregion
     }
