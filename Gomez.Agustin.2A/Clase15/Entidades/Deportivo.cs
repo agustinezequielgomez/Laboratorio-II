@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class Deportivo : Auto,IAFIP
+    public class Deportivo : Auto,IAFIP,IARBA
     {
         #region Atributos
         protected int _caballosFuerza;
@@ -43,6 +43,11 @@ namespace Entidades
         public double CalcularImpuesto()
         {
             return this.Precio * 0.28;
+        }
+
+        double IARBA.CalcularImpuesto()
+        {
+            return this.Precio * 0.23;
         }
         #endregion
     }

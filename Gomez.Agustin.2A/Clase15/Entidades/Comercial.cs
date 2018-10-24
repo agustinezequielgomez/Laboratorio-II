@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class Comercial : Avion
+    public class Comercial : Avion,IARBA
     {
         #region Atributos
         protected int _capacidadPasajeros;
@@ -31,6 +31,13 @@ namespace Entidades
         public Comercial(double precio, double velocidad, int pasajeros) : base(precio,velocidad)
         {
             this._capacidadPasajeros = pasajeros;
+        }
+        #endregion
+
+        #region Metodos
+        public double CalcularImpuesto()
+        {
+            return this.Precio * 0.25;
         }
         #endregion
     }

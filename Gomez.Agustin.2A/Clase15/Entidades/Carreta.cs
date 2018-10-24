@@ -6,10 +6,15 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class Carreta : Vehiculo
+    public class Carreta : Vehiculo,IARBA
     {
         public Carreta(double precio) : base(precio)
         {
+        }
+
+        public double CalcularImpuesto()
+        {
+            return this.Precio*0.18;
         }
     }
 }
