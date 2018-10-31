@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entidades
+namespace EntidadesAbstractas
 {
-    abstract class Universitario : Persona
+    public abstract class Universitario : Persona
     {
         #region Atributos
         private int legajo;
         #endregion
 
         #region Constructor
-        public Universitario() : this(12,"Pedro","Gonzalez","340",ENacionalidad.Argentino)
+        public Universitario() : this(0,"Sin Nombre","Sin apellido","1",ENacionalidad.Argentino)
         {
         }
 
@@ -39,9 +39,21 @@ namespace Entidades
             bool retorno = false;
             if(obj is Universitario)
             {
-                retorno = (obj == this);
+                retorno = (((Universitario)obj) == this);
             }
             return retorno;
+        }
+        #endregion
+
+        #region Sobrecargas
+        public static bool operator ==(Universitario pg1, Universitario pg2)
+        {
+            return (pg1.DNI == pg2.DNI || pg1.legajo == pg2.legajo);
+        }
+
+        public static bool operator !=(Universitario pg1, Universitario pg2)
+        {
+            return !(pg1 == pg2);
         }
         #endregion
     }

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entidades
+namespace EntidadesAbstractas
 {
-    abstract class Persona
+    public abstract class Persona
     {
         #region Atributos
         private string apellido;
@@ -97,19 +97,19 @@ namespace Entidades
         #endregion
 
         #region Constructores
-        public Persona() : this("Sin nombre","Sin Apellido",0,ENacionalidad.Argentino)
+        public Persona() : this("Sin nombre","Sin Apellido",ENacionalidad.Argentino)
         {
         }
 
-        public Persona(string nombre, string apellido, ENacionalidad nacionalidad) : this(nombre,apellido,1,ENacionalidad.Argentino)
-        {
-        }
-
-        public Persona(string nombre, string apellido, int dni, ENacionalidad nacionalidad)
+        public Persona(string nombre, string apellido, ENacionalidad nacionalidad)
         {
             this.Nombre = nombre;
             this.Apellido = apellido;
             this.Nacionalidad = nacionalidad;
+        }
+
+        public Persona(string nombre, string apellido, int dni, ENacionalidad nacionalidad) : this(nombre,apellido,nacionalidad)
+        {
             this.DNI = dni;
         }
 
