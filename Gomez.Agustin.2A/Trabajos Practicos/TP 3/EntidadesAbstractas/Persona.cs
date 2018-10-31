@@ -97,7 +97,7 @@ namespace Entidades
         #endregion
 
         #region Constructores
-        public Persona() : this("Juan","Rodriguez",1,ENacionalidad.Argentino)
+        public Persona() : this("Sin nombre","Sin Apellido",0,ENacionalidad.Argentino)
         {
         }
 
