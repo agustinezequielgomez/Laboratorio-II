@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Interface
+namespace Entidades
 {
-    class Program
+    abstract class Universitario : Persona
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }
