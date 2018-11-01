@@ -45,7 +45,7 @@ namespace EntidadesAbstractas
         }
         #endregion
 
-        #region Sobrecargas
+        #region Operadores
         public static bool operator ==(Universitario pg1, Universitario pg2)
         {
             return (pg1.DNI == pg2.DNI || pg1.legajo == pg2.legajo);

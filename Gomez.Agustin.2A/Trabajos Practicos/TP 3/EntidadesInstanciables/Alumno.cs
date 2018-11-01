@@ -21,7 +21,7 @@ namespace EntidadesInstanciables
         #endregion
 
         #region Constructores
-        public Alumno()
+        public Alumno() : this(0,"Sin nombre","Sin apellido","1",ENacionalidad.Argentino,Universidad.EClases.Laboratorio,EEstadoCuenta.AlDia)
         {
         }
 
@@ -33,6 +33,39 @@ namespace EntidadesInstanciables
         public Alumno(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad, Universidad.EClases claseQueToma, EEstadoCuenta estadoCuenta) : this(id,nombre,apellido,dni,nacionalidad,claseQueToma)
         {
             this.estadoCuenta = estadoCuenta;
+        }
+        #endregion
+
+        #region Metodos
+        protected override string MostrarDatos()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendFormat(base.MostrarDatos());
+            sb.AppendFormat("ESTADO DE CUENTA: {0}",this.estadoCuenta);
+            sb.Append(this.ParticiparEnClase());
+            return sb.ToString();
+        }
+
+        protected override string ParticiparEnClase()
+        {
+            return string.Format("\nTOMA CLASES DE {0}", this.claseQueToma);
+        }
+
+        public override string ToString()
+        {
+            return this.MostrarDatos();
+        }
+        #endregion
+
+        #region Operadores
+        public static bool operator ==(Alumno a, Universidad.EClases clase)
+        {
+            return (a.claseQueToma == clase && a.estadoCuenta != EEstadoCuenta.Deudor);
+        }
+
+        public static bool operator !=(Alumno a, Universidad.EClases clase)
+        {
+            return (a.claseQueToma != clase);
         }
         #endregion
     }
