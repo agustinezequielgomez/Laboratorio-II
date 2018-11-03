@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Excepciones
 {
-    public class ArchivosException : Exception
+    public class AlumnoRepetidoException : Exception
     {
-        public ArchivosException(Exception innerException) : base("Error en el archivo",innerException)
+        public AlumnoRepetidoException() : base("\nAlumno repetido.")
         {
         }
     }

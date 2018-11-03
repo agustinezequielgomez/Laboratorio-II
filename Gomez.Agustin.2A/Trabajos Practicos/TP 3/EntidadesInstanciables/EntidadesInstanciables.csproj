@@ -37,6 +37,9 @@
     <Reference Include="EntidadesAbstractas">
       <HintPath>..\EntidadesAbstractas\bin\Debug\EntidadesAbstractas.dll</HintPath>
     </Reference>
+    <Reference Include="Excepciones">
+      <HintPath>..\Excepciones\bin\Debug\Excepciones.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />

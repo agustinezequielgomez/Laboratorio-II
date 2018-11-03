@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Excepciones
 {
-    class NacionalidadInvalidaException : Exception
+     public class NacionalidadInvalidaException : Exception
     {
-        public NacionalidadInvalidaException() : base()
+        public NacionalidadInvalidaException() : this("\nLa nacionalidad no se condice con el número de DNI")
         {
 
         }

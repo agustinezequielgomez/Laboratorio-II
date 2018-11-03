@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Archivos;
+using Excepciones;
 
 namespace EntidadesInstanciables
 {
@@ -106,7 +107,7 @@ namespace EntidadesInstanciables
             }
             else
             {
-                //throw new AlumnoRepetidoException;
+                throw new AlumnoRepetidoException();
             }
             return j;
         }

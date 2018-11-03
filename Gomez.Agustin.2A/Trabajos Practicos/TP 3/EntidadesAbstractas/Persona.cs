@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Excepciones;
 
 namespace EntidadesAbstractas
 {
@@ -43,14 +44,7 @@ namespace EntidadesAbstractas
 
             set
             {
-                try
-                {
-                    this.dni = this.ValidarDni(this.Nacionalidad, value);
-                }
-                catch(Exception e)
-                {
-
-                }
+                this.dni = this.ValidarDni(this.Nacionalidad, value);
             }
         }
 
@@ -84,14 +78,7 @@ namespace EntidadesAbstractas
         {
             set
             {
-                try
-                {
-                     this.DNI = ValidarDni(this.Nacionalidad, value);
-                }
-                catch(Exception e)
-                {
-
-                }
+                this.DNI = ValidarDni(this.Nacionalidad, value);
             }
         }
         #endregion
@@ -140,7 +127,7 @@ namespace EntidadesAbstractas
                     }
                     else
                     {
-                        //throw NacionalidadInvalidaException
+                        throw new NacionalidadInvalidaException();
                     }
                     break;
                 case ENacionalidad.Extranjero:
@@ -150,7 +137,7 @@ namespace EntidadesAbstractas
                     }
                     else
                     {
-                        //throw NacionalidadInvalidaException
+                        throw new NacionalidadInvalidaException();
                     }
                     break;
                 default:
@@ -169,7 +156,7 @@ namespace EntidadesAbstractas
             }
             else
             {
-                //throw DniInvalidoException
+                throw new NacionalidadInvalidaException();
             }
             return retorno;
         }

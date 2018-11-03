@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Excepciones;
 
 namespace EntidadesInstanciables
 {
@@ -168,7 +169,7 @@ namespace EntidadesInstanciables
 
             if(retorno is null)
             {
-                //throw SinProfesorException
+                throw new SinProfesorException();
             }
             return retorno;
         }
@@ -214,7 +215,7 @@ namespace EntidadesInstanciables
             }
             else
             {
-                //throw AlumnoRepetidoException;
+                throw new AlumnoRepetidoException();
             }
             return u;
         }

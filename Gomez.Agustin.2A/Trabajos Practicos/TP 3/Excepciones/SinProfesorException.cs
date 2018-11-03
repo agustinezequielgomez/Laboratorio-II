@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Excepciones
 {
-    public class ArchivosException : Exception
+    public class SinProfesorException : Exception
     {
-        public ArchivosException(Exception innerException) : base("Error en el archivo",innerException)
+        public SinProfesorException() : base("\nNo hay Profesor para la clase.")
         {
         }
     }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
-
+using Excepciones;
 
 namespace Archivos
 {
@@ -23,7 +23,7 @@ namespace Archivos
             }
             catch(Exception e)
             {
-                //throw new ArchivosException
+                throw new ArchivosException(e);
             }
             return retorno;
         }
@@ -42,7 +42,7 @@ namespace Archivos
             }
             catch(Exception e)
             {
-                //throw new ArchivosException
+                throw new ArchivosException(e);
             }
             return retorno;
         }
