@@ -3,19 +3,51 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
+using System.Xml.Serialization;
+using System.IO;
+using Excepciones;
 
 namespace Archivos
 {
-    class Xml<T> : IArchivo<T>
+    public class Xml<T> : IArchivo<T>
     {
         public bool Guardar(string archivo, T datos)
         {
-            throw new NotImplementedException();
+            bool retorno = false;
+            try
+            {
+                using (XmlTextWriter writer = new XmlTextWriter(archivo,Encoding.UTF8))
+                {
+                    XmlSerializer xml = new XmlSerializer(typeof(T));
+                    xml.Serialize(writer,datos);
+                    retorno = true;
+                }
+            }
+            catch(Exception e)
+            {
+                throw new ArchivosException(e);
+            }
+            return retorno;
         }
 
         public bool Leer(string archivo, out T datos)
         {
-            throw new NotImplementedException();
+            bool retorno = false;
+            try
+            {
+                using (XmlTextReader reader = new XmlTextReader(archivo))
+                {
+                    XmlSerializer xml = new XmlSerializer(typeof(T));
+                    datos = (T) xml.Deserialize(reader);
+                    retorno = true;
+                }
+            }
+            catch(Exception e)
+            {
+                throw new ArchivosException(e);
+            }
+            return retorno;
         }
     }
 }

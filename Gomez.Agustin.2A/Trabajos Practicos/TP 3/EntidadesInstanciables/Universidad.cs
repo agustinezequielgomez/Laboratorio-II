@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Excepciones;
+using Archivos;
 
 namespace EntidadesInstanciables
 {
@@ -98,6 +99,20 @@ namespace EntidadesInstanciables
         #endregion
 
         #region Metodos
+        public static bool Guardar(Universidad uni)
+        {
+            Xml<Universidad> xml = new Xml<Universidad>();
+            return xml.Guardar("archivo.xml", uni);
+        }
+
+        public static Universidad Leer()
+        {
+            Universidad retorno = new Universidad();
+            Xml<Universidad> xml = new Xml<Universidad>();
+            xml.Leer("archivo.xml", out retorno);
+            return retorno;
+        }
+
         private static string MostrarDatos(Universidad uni)
         {
             StringBuilder sb = new StringBuilder();

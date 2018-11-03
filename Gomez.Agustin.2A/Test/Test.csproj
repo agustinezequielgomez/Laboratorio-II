@@ -42,6 +42,10 @@
     <Reference Include="EntidadesInstanciables">
       <HintPath>..\Trabajos Practicos\TP 3\EntidadesInstanciables\bin\Debug\EntidadesInstanciables.dll</HintPath>
     </Reference>
+    <Reference Include="Excepciones, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Trabajos Practicos\TP 3\Excepciones\bin\Debug\Excepciones.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
