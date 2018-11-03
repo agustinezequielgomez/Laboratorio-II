@@ -7,7 +7,7 @@ using EntidadesAbstractas;
 
 namespace EntidadesInstanciables
 {
-    sealed class Profesor : Universitario
+    public sealed class Profesor : Universitario
     {
         #region Atributos
         private Queue<Universidad.EClases> clasesDelDia;

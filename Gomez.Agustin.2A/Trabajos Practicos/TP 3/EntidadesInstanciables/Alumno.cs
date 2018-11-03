@@ -7,7 +7,7 @@ using EntidadesAbstractas;
 
 namespace EntidadesInstanciables
 {
-    sealed class Alumno : Universitario
+    public sealed class Alumno : Universitario
     {
         #region Atributos
         private Universidad.EClases claseQueToma;

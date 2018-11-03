@@ -123,8 +123,8 @@ namespace EntidadesAbstractas
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendFormat("\nNOMBRE COMPLETO: {0}, {1}", this.Apellido, this.Nombre);
-            sb.AppendFormat("\nNACIONALIDAD: {0}", Enum.GetName(typeof(ENacionalidad),this.Nacionalidad));
+            sb.AppendFormat("NOMBRE COMPLETO: {0}, {1}", this.Apellido, this.Nombre);
+            sb.AppendFormat("\nNACIONALIDAD: {0}\n", Enum.GetName(typeof(ENacionalidad),this.Nacionalidad));
             return sb.ToString();
         }
 
