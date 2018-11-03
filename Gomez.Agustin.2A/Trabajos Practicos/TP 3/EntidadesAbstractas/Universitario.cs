@@ -17,7 +17,7 @@ namespace EntidadesAbstractas
         {
         }
 
-        public Universitario(int legajo, string nombre, string apellido,string dni, ENacionalidad nacionalidad) : base(nombre,apellido,dni,nacionalidad)
+        public Universitario(int legajo, string nombre, string apellido, string dni, ENacionalidad nacionalidad) : base(nombre,apellido,dni,nacionalidad)
         {
             this.legajo = legajo;
         }

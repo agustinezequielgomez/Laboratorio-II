@@ -82,17 +82,18 @@ namespace EntidadesInstanciables
             return sb.ToString();
         }
 
-        public bool Guardar(Jornada jornada)
+        public static bool Guardar(Jornada jornada)
         {
-            bool retorno;
             Texto texto = new Texto();
-            retorno = texto.Guardar((Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + @"\Jornadas.txt"), jornada.ToString());
-            return retorno;
+            return texto.Guardar((AppDomain.CurrentDomain.BaseDirectory + @"\Jornadas.txt"), jornada.ToString());
         }
 
-        public string Leer()
+        public static string Leer()
         {
-            return "a";
+            Texto texto = new Texto();
+            string retorno = "";
+            texto.Leer((AppDomain.CurrentDomain.BaseDirectory + @"\Jornadas.txt"), out retorno);
+            return retorno;
         }
         #endregion
 

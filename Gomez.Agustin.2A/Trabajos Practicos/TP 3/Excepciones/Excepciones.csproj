@@ -4,14 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7627201F-75E0-470B-97C7-04C62B237AC7}</ProjectGuid>
+    <ProjectGuid>{A13253A0-202C-4946-AE96-9247FE0BB3C3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EntidadesInstanciables</RootNamespace>
-    <AssemblyName>EntidadesInstanciables</AssemblyName>
+    <RootNamespace>Excepciones</RootNamespace>
+    <AssemblyName>Excepciones</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <TargetFrameworkProfile />
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -31,12 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Archivos">
-      <HintPath>..\Archivos\bin\Debug\Archivos.dll</HintPath>
-    </Reference>
-    <Reference Include="EntidadesAbstractas">
-      <HintPath>..\EntidadesAbstractas\bin\Debug\EntidadesAbstractas.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -47,11 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Alumno.cs" />
-    <Compile Include="Jornada.cs" />
-    <Compile Include="Profesor.cs" />
+    <Compile Include="ArchivosException.cs" />
+    <Compile Include="DniInvalidoException.cs" />
+    <Compile Include="NacionalidadInvalidaException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Universidad.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

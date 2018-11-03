@@ -166,7 +166,7 @@ namespace EntidadesInstanciables
                 }
             }
 
-            if(retorno == null)
+            if(retorno is null)
             {
                 //throw SinProfesorException
             }
@@ -191,7 +191,7 @@ namespace EntidadesInstanciables
         {
             Jornada jornada;
             Profesor profesor = (g == clase);
-            if(profesor != null)
+            if(!(profesor is null))
             {
                 jornada = new Jornada(clase, profesor);
                 foreach (Alumno alumno in g.Alumnos)
