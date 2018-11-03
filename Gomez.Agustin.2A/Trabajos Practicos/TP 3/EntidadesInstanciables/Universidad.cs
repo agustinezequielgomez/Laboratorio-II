@@ -102,14 +102,14 @@ namespace EntidadesInstanciables
         public static bool Guardar(Universidad uni)
         {
             Xml<Universidad> xml = new Xml<Universidad>();
-            return xml.Guardar("archivo.xml", uni);
+            return xml.Guardar("Universidad.xml", uni);
         }
 
         public static Universidad Leer()
         {
             Universidad retorno = new Universidad();
             Xml<Universidad> xml = new Xml<Universidad>();
-            xml.Leer("archivo.xml", out retorno);
+            xml.Leer("Universidad.xml", out retorno);
             return retorno;
         }
 

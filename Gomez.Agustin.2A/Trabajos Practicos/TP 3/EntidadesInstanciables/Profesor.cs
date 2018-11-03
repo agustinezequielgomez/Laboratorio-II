@@ -20,7 +20,7 @@ namespace EntidadesInstanciables
             Profesor.random = new Random();
         }
 
-        public Profesor()
+        public Profesor() : this(0,"Sin nombre","Sin apellido","0",ENacionalidad.Argentino)
         {
 
         }

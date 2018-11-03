@@ -150,13 +150,13 @@ namespace EntidadesAbstractas
         {
             int dni;
             int retorno = 0;
-            if (dato.Length <= 8 && (int.TryParse(dato, out dni)))
+            if (dato.Length >= 1 && dato.Length <= 8 && (int.TryParse(dato, out dni)))
             {
                 retorno = dni;
             }
             else
             {
-                throw new NacionalidadInvalidaException();
+                throw new DniInvalidoException();
             }
             return retorno;
         }

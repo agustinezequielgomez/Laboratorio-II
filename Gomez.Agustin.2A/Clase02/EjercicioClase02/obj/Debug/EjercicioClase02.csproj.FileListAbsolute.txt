@@ -12,3 +12,10 @@ D:\Laboratorio-II\Gomez.Agustin.2A\Clase02\EjercicioClase02\obj\Debug\EjercicioC
 D:\Laboratorio-II\Gomez.Agustin.2A\Clase02\EjercicioClase02\obj\Debug\EjercicioClase02.csproj.CoreCompileInputs.cache
 D:\Laboratorio-II\Gomez.Agustin.2A\Clase02\EjercicioClase02\obj\Debug\EjercicioClase02.exe
 D:\Laboratorio-II\Gomez.Agustin.2A\Clase02\EjercicioClase02\obj\Debug\EjercicioClase02.pdb
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Clase02\EjercicioClase02\bin\Debug\EjercicioClase02.exe.config
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Clase02\EjercicioClase02\bin\Debug\EjercicioClase02.exe
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Clase02\EjercicioClase02\bin\Debug\EjercicioClase02.pdb
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Clase02\EjercicioClase02\obj\Debug\EjercicioClase02.csprojAssemblyReference.cache
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Clase02\EjercicioClase02\obj\Debug\EjercicioClase02.csproj.CoreCompileInputs.cache
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Clase02\EjercicioClase02\obj\Debug\EjercicioClase02.exe
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Clase02\EjercicioClase02\obj\Debug\EjercicioClase02.pdb
