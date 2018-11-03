@@ -20,6 +20,11 @@ namespace EntidadesInstanciables
             Profesor.random = new Random();
         }
 
+        public Profesor()
+        {
+
+        }
+
         public Profesor(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad) : base(id,nombre,apellido,dni,nacionalidad)
         {
             this.clasesDelDia = new Queue<Universidad.EClases>();
@@ -31,7 +36,7 @@ namespace EntidadesInstanciables
         protected override string MostrarDatos()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine(base.MostrarDatos());
+            sb.Append(base.MostrarDatos());
             sb.AppendLine(this.ParticiparEnClase());
             return sb.ToString();
         }
@@ -46,9 +51,9 @@ namespace EntidadesInstanciables
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine("CLASES DEL DIA:");
-            foreach (Universidad.EClases item in this.clasesDelDia)
+            foreach (Universidad.EClases clases in this.clasesDelDia)
             {
-                sb.AppendLine(item.ToString());
+                sb.AppendLine(clases.ToString());
             }
             return sb.ToString();
         }

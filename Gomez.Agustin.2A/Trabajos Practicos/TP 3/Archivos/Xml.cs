@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Xml;
 using System.Xml.Serialization;
 using System.IO;
 using Excepciones;
@@ -17,14 +16,14 @@ namespace Archivos
             bool retorno = false;
             try
             {
-                using (XmlTextWriter writer = new XmlTextWriter(archivo,Encoding.UTF8))
+                using (TextWriter writer = new StreamWriter(archivo))
                 {
-                    XmlSerializer xml = new XmlSerializer(typeof(T));
-                    xml.Serialize(writer,datos);
+                    XmlSerializer serializer = new XmlSerializer(typeof(T));
+                    serializer.Serialize(writer, datos);
                     retorno = true;
                 }
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 throw new ArchivosException(e);
             }
@@ -36,7 +35,7 @@ namespace Archivos
             bool retorno = false;
             try
             {
-                using (XmlTextReader reader = new XmlTextReader(archivo))
+                using (TextReader reader = new StreamReader(archivo))
                 {
                     XmlSerializer xml = new XmlSerializer(typeof(T));
                     datos = (T) xml.Deserialize(reader);

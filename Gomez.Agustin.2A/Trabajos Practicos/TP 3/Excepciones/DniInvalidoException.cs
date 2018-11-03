@@ -13,12 +13,12 @@ namespace Excepciones
         #endregion
 
         #region Constructor
-        public DniInvalidoException() : this("\nFormato de DNI invalido.")
+        public DniInvalidoException() : this("Formato de DNI invalido.")
         {
 
         }
 
-        public DniInvalidoException(Exception e) : base("\nFormato de DNI invalido.",e)
+        public DniInvalidoException(Exception e) : base("Formato de DNI invalido.",e)
         {
             
         }

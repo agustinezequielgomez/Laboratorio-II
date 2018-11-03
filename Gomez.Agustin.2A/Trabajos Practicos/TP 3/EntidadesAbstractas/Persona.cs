@@ -110,8 +110,8 @@ namespace EntidadesAbstractas
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendFormat("NOMBRE COMPLETO: {0} {1}", this.Apellido, this.Nombre);
-            sb.AppendFormat("\nNACIONALIDAD: {0}\n", Enum.GetName(typeof(ENacionalidad),this.Nacionalidad));
+            sb.AppendFormat("NOMBRE COMPLETO: {0}, {1}", this.Apellido, this.Nombre);
+            sb.AppendFormat("\nNACIONALIDAD: {0}", this.Nacionalidad);
             return sb.ToString();
         }
 
@@ -121,7 +121,7 @@ namespace EntidadesAbstractas
             switch (nacionalidad)
             {
                 case ENacionalidad.Argentino:
-                    if (dato > 1 && dato < 89999999)
+                    if (dato >= 1 && dato <= 89999999)
                     {
                         retorno = dato;
                     }
@@ -177,10 +177,6 @@ namespace EntidadesAbstractas
             if (flag == true)
             {
                 retorno = dato;
-            }
-            else
-            {
-                retorno = "";
             }
             return retorno;
         }
