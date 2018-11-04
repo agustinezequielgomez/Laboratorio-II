@@ -11,6 +11,12 @@ namespace Archivos
 {
     public class Xml<T> : IArchivo<T>
     {
+        /// <summary>
+        /// Serializa un objeto de cualquier tipo en un archivo xml. 
+        /// </summary>
+        /// <param name="archivo">Ruta al archivo xml.</param>
+        /// <param name="datos">Objeto a serializar.</param>
+        /// <returns>Retorna <see cref="true"/> si el archivo se serializo exitosamente. De no ser asi se lanza <see cref="ArchivosException"/>.</returns>
         public bool Guardar(string archivo, T datos)
         {
             bool retorno = false;
@@ -30,6 +36,12 @@ namespace Archivos
             return retorno;
         }
 
+        /// <summary>
+        /// Deserializa un archivo xml y retorna el contenido como un objeto.
+        /// </summary>
+        /// <param name="archivo">Ruta al archivo xml.</param>
+        /// <param name="datos">Parametro de salida que retornara el objeto deserializado.</param>
+        /// <returns>Retorna <see cref="true"/> si se deserializo exitosamente. De no ser asi se lanza <see cref="ArchivosException"/></returns>
         public bool Leer(string archivo, out T datos)
         {
             bool retorno = false;

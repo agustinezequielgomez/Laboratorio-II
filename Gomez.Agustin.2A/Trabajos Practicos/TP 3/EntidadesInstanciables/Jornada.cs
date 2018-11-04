@@ -134,7 +134,7 @@ namespace EntidadesInstanciables
         /// </summary>
         /// <param name="j">Jornada a la que se le va a agregar un Alumno.</param>
         /// <param name="a">Alumno a agregar a la Jornada.</param>
-        /// <returns>Retorna una <see cref="Jornada"/> con el alumno ya agregado a ella si este no forma parte. Retorna la misma <see cref="Jornada"/> pasada por parametro si este forma parte.</returns>
+        /// <returns>Retorna una <see cref="Jornada"/> con el alumno ya agregado a ella si este no forma parte. Si el alumno forma parte de la <see cref="Jornada"/>, se lanza <see cref="AlumnoRepetidoException"/>.</returns>
         public static Jornada operator +(Jornada j, Alumno a)
         {
             if(j!=a)

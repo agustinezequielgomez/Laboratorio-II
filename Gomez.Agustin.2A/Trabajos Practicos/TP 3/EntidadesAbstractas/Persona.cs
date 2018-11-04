@@ -98,7 +98,7 @@ namespace EntidadesAbstractas
         /// <summary>
         /// Inicializa una nueva instancia de la Clase <see cref="Persona"/>.
         /// </summary>
-        public Persona() : this("Sin nombre","Sin Apellido",ENacionalidad.Argentino)
+        public Persona()
         {
         }
 

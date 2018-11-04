@@ -16,7 +16,7 @@ namespace EntidadesAbstractas
         /// <summary>
         /// Inicializa una nueva instancia de la clase <see cref="Universitario"/>.
         /// </summary>
-        public Universitario() : this(0,"Sin Nombre","Sin apellido","1",ENacionalidad.Argentino)
+        public Universitario()
         {
         }
 

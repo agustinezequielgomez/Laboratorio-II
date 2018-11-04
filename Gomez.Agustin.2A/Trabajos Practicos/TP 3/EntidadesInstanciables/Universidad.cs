@@ -15,14 +15,6 @@ namespace EntidadesInstanciables
         private List<Alumno> alumnos;
         private List<Jornada> jornada;
         private List<Profesor> profesores;
-
-        public enum EClases
-        {
-            Programacion,
-            Laboratorio,
-            Legislacion,
-            SPD
-        }
         #endregion
 
         #region Propiedades
@@ -328,6 +320,16 @@ namespace EntidadesInstanciables
                 u.Instructores.Add(i);
             }
             return u;
+        }
+        #endregion
+
+        #region Enumerados
+        public enum EClases
+        {
+            Programacion,
+            Laboratorio,
+            Legislacion,
+            SPD
         }
         #endregion
     }

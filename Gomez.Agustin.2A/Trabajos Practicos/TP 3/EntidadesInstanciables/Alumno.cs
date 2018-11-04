@@ -18,7 +18,7 @@ namespace EntidadesInstanciables
         /// <summary>
         /// Inicializa una nueva instancia de la clase <see cref="Alumno"/>.
         /// </summary>
-        public Alumno() : this(0,"Sin nombre","Sin apellido","1",ENacionalidad.Argentino,Universidad.EClases.Laboratorio,EEstadoCuenta.AlDia)
+        public Alumno()
         {
         }
 

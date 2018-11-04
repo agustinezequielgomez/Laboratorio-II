@@ -11,14 +11,20 @@ namespace UnitTestTP3
     public class UnitTestTP3
     {
 
+        /// <summary>
+        /// Test Unitario que comrpueba que al agregar dos objetos de tipo <see cref="Alumno"/> a una <see cref="Universidad"/>, se lance la excepcion <see cref="AlumnoRepetidoException"/>.
+        /// </summary>
         [TestMethod]
         public void AlumnoRepetidoExceptionTest()
         {
+            //Se instancian dos alumnos con mismo numero de DNI
             Alumno alumno = new Alumno(1500, "Roberto", "Martinez", "458000", Persona.ENacionalidad.Argentino, Universidad.EClases.Laboratorio);
             Alumno segundoAlumno = new Alumno(45800, "Martin", "Echeverria", "458000", Persona.ENacionalidad.Argentino, Universidad.EClases.Programacion);
+            //Se instancia una Universidad en la que se agregaran los alumnos
             Universidad universidad = new Universidad();
             try
             {
+                //Se agregan los alumnos.
                 universidad += alumno;
                 universidad += segundoAlumno;
             }
@@ -28,6 +34,9 @@ namespace UnitTestTP3
             }
         }
         
+        /// <summary>
+        /// Test Unitario que comprueba que al instanciar un <see cref="Alumno"/> con formato invalido de DNI, se lance la excepcion <see cref="DniInvalidoException"/>
+        /// </summary>
         [TestMethod]
         public void DniInvalidoExceptionTest()
         {
@@ -52,6 +61,9 @@ namespace UnitTestTP3
             }
         }
 
+        /// <summary>
+        /// Test Unitario que comprueba que al instanciar un <see cref="Alumno"/> con un DNI fuera de rango para su nacionalidad, se lance <see cref="NacionalidadInvalidaException"/>.
+        /// </summary>
         [TestMethod]
         public void NacionalidadInvalidaExceptionTest()
         {
@@ -99,6 +111,9 @@ namespace UnitTestTP3
             }*/
         }
 
+        /// <summary>
+        /// Test Unitario que valida un Valor Numerico
+        /// </summary>
         [TestMethod]
         public void ValorNumericoTest()
         {
@@ -108,52 +123,52 @@ namespace UnitTestTP3
             Assert.IsInstanceOfType(alumno.DNI, typeof(int));
         }
 
+        /// <summary>
+        /// Test Unitario que comprueba que no haya atributos <see cref="null"/> en las instancias de la clase <see cref="Alumno"/>. 
+        /// </summary>
         [TestMethod]
         public void ValoresNulosTestAlumno()
         {
             //Test de Alumno con sus distintos constructores
-            Alumno alumno = new Alumno();
+            //No se comprueba con los constructores por default ya que estos estan creados exclusivamente por la serializacion.
+
+            Alumno alumno = new Alumno(1500, "Jose", "Alberto", "45877", Persona.ENacionalidad.Argentino, Universidad.EClases.Laboratorio);
             Assert.IsNotNull(alumno);
             Assert.IsNotNull(alumno.Apellido);
             Assert.IsNotNull(alumno.DNI);
             Assert.IsNotNull(alumno.Nacionalidad);
             Assert.IsNotNull(alumno.Nombre);
 
-            Alumno segundoAlumno = new Alumno(1500, "Jose", "Alberto", "45877", Persona.ENacionalidad.Argentino, Universidad.EClases.Laboratorio);
+
+            Alumno segundoAlumno = new Alumno(4800, "Camila", "Gonzalez", "94777489", Persona.ENacionalidad.Extranjero, Universidad.EClases.Legislacion);
             Assert.IsNotNull(segundoAlumno);
             Assert.IsNotNull(segundoAlumno.Apellido);
             Assert.IsNotNull(segundoAlumno.DNI);
             Assert.IsNotNull(segundoAlumno.Nacionalidad);
             Assert.IsNotNull(segundoAlumno.Nombre);
-
-
-            Alumno tercerAlumno = new Alumno(4800, "Camila", "Gonzalez", "94777489", Persona.ENacionalidad.Extranjero, Universidad.EClases.Legislacion);
-            Assert.IsNotNull(tercerAlumno);
-            Assert.IsNotNull(tercerAlumno.Apellido);
-            Assert.IsNotNull(tercerAlumno.DNI);
-            Assert.IsNotNull(tercerAlumno.Nacionalidad);
-            Assert.IsNotNull(tercerAlumno.Nombre);
         }
 
+        /// <summary>
+        /// Test Unitario que comprueba que no haya atributos <see cref="null"/> en las instancias de la clase <see cref="Profesor"/>. 
+        /// </summary>
         [TestMethod]
         public void ValoresNulosTestProfesor()
         {
             //Test de Profesor con sus distintos constructores
-            Profesor profesor = new Profesor();
+            //No se comprueba con los constructores por default ya que estos estan creados exclusivamente por la serializacion.
+
+
+            Profesor profesor = new Profesor(4785, "Carolina", "Siedlar", "1500365", Persona.ENacionalidad.Argentino);
             Assert.IsNotNull(profesor);
             Assert.IsNotNull(profesor.Apellido);
             Assert.IsNotNull(profesor.DNI);
             Assert.IsNotNull(profesor.Nacionalidad);
             Assert.IsNotNull(profesor.Nombre);
-
-            Profesor segundoProfesor = new Profesor(4785, "Carolina", "Siedlar", "1500365", Persona.ENacionalidad.Argentino);
-            Assert.IsNotNull(segundoProfesor);
-            Assert.IsNotNull(segundoProfesor.Apellido);
-            Assert.IsNotNull(segundoProfesor.DNI);
-            Assert.IsNotNull(segundoProfesor.Nacionalidad);
-            Assert.IsNotNull(segundoProfesor.Nombre);
         }
 
+        /// <summary>
+        /// Test Unitario que comprueba que no haya atributos <see cref="null"/> en las instancias de la clase <see cref="Jornada"/>. 
+        /// </summary>
         [TestMethod]
         public void ValoresNulosTestJornada()
         {
@@ -166,6 +181,9 @@ namespace UnitTestTP3
             Assert.IsNotNull(jornada.Instructor);
         }
 
+        /// <summary>
+        /// Test Unitario que comprueba que no haya atributos <see cref="null"/> en las instancias de la clase <see cref="Universidad"/>. 
+        /// </summary>
         [TestMethod]
         public void ValoresNulosTestUniversidad()
         {
