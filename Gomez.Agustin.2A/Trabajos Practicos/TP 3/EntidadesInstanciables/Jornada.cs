@@ -17,6 +17,9 @@ namespace EntidadesInstanciables
         #endregion
 
         #region Propiedades
+        /// <summary>
+        /// Obtiene o establece una <see cref="List{Alumno}"/> de tipo <see cref="Alumno"/> que contiene los Alumnos que tomaran la clase de la <see cref="Jornada"/>.
+        /// </summary>
         public List<Alumno> Alumnos
         {
             get
@@ -30,6 +33,9 @@ namespace EntidadesInstanciables
             }
         }
 
+        /// <summary>
+        /// Obtiene o establece las Clases que se dictaran en la <see cref="Jornada"/>.
+        /// </summary>
         public Universidad.EClases Clase
         {
             get
@@ -43,6 +49,9 @@ namespace EntidadesInstanciables
             }
         }
 
+        /// <summary>
+        /// Obtiene o establece el <see cref="Profesor"/> que dictara clases en la <see cref="Jornada"/>.
+        /// </summary>
         public Profesor Instructor
         {
             get
@@ -58,11 +67,19 @@ namespace EntidadesInstanciables
         #endregion
 
         #region Constructor
+        /// <summary>
+        /// Inicializa una nueva instancia de la clase <see cref="Jornada"/>.
+        /// </summary>
         private Jornada()
         {
             this.Alumnos = new List<Alumno>();
         }
 
+        /// <summary>
+        /// Inicializa una nueva instancia de la clase <see cref="Jornada"/>.
+        /// </summary>
+        /// <param name="clase">Clase que se dictara en la Jornada.</param>
+        /// <param name="instructor">Profseor que dictara la Clase de la Jornada.</param>
         public Jornada(Universidad.EClases clase, Profesor instructor) : this()
         {
             this.Clase = clase;
@@ -71,6 +88,10 @@ namespace EntidadesInstanciables
         #endregion
 
         #region Metodos
+        /// <summary>
+        /// Muestra los datos de una <see cref="Jornada"/>.
+        /// </summary>
+        /// <returns>Retorna un <see cref="string"/> que contiene todos los datos de la <see cref="Jornada"/>.</returns>
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
@@ -83,12 +104,21 @@ namespace EntidadesInstanciables
             return sb.ToString();
         }
 
+        /// <summary>
+        /// Guarda los datos de la <see cref="Jornada"/> en un archivo de texto.
+        /// </summary>
+        /// <param name="jornada"><see cref="Jornada"/> que se guardara en un archivo de texto.</param>
+        /// <returns>Retorna <see cref="true"/> si logro guardar la <see cref="Jornada"/> con exito, <see cref="false"/> si no lo logro.</returns>
         public static bool Guardar(Jornada jornada)
         {
             Texto texto = new Texto();
             return texto.Guardar((AppDomain.CurrentDomain.BaseDirectory + @"\Jornadas.txt"), jornada.ToString());
         }
 
+        /// <summary>
+        /// Lee una <see cref="Jornada"/> de un archivo de texto.
+        /// </summary>
+        /// <returns>Retorna un <see cref="string"/> que contiene la <see cref="Jornada"/> leida del archivo.</returns>
         public static string Leer()
         {
             Texto texto = new Texto();
@@ -99,6 +129,12 @@ namespace EntidadesInstanciables
         #endregion
 
         #region Operadores
+        /// <summary>
+        /// Agrega un <see cref="Alumno"/> a la <see cref="Jornada"/>, validando que este no este previamente agregado.
+        /// </summary>
+        /// <param name="j">Jornada a la que se le va a agregar un Alumno.</param>
+        /// <param name="a">Alumno a agregar a la Jornada.</param>
+        /// <returns>Retorna una <see cref="Jornada"/> con el alumno ya agregado a ella si este no forma parte. Retorna la misma <see cref="Jornada"/> pasada por parametro si este forma parte.</returns>
         public static Jornada operator +(Jornada j, Alumno a)
         {
             if(j!=a)
@@ -112,6 +148,12 @@ namespace EntidadesInstanciables
             return j;
         }
 
+        /// <summary>
+        /// Comprueba si el <see cref="Alumno"/> ya forma parte de la <see cref="Jornada"/>.
+        /// </summary>
+        /// <param name="j">Jornada en la que se comprueba si el Alumno ya forma parte de ella.</param>
+        /// <param name="a">Alumno que se comprabara si forma parte de la Jornada.</param>
+        /// <returns>Retorna <see cref="true"/> si el Alumno forma parte de la Jornada, <see cref="false"/> si no forma parte.</returns>
         public static bool operator ==(Jornada j, Alumno a)
         {
             bool retorno = false;
@@ -126,6 +168,12 @@ namespace EntidadesInstanciables
             return retorno;
         }
 
+        /// <summary>
+        /// Comprueba si el <see cref="Alumno"/> no forma parte de la <see cref="Jornada"/>.
+        /// </summary>
+        /// <param name="j">Jornada en la que se comprueba si el Alumno no forma parte de ella.</param>
+        /// <param name="a">Alumno que se comprabara si no forma parte de la Jornada.</param>
+        /// <returns>Retorna <see cref="true"/> si el Alumno no forma parte de la Jornada, <see cref="false"/> si forma parte.</returns>
         public static bool operator !=(Jornada j, Alumno a)
         {
             return !(j == a);
