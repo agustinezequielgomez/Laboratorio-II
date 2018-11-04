@@ -68,7 +68,7 @@ namespace EntidadesInstanciables
                     break;
                 case EEstadoCuenta.Deudor:
                 case EEstadoCuenta.Becado:
-                    sb.AppendFormat("\nESTADO CUENTA: {0}", this.estadoCuenta);
+                    sb.AppendFormat("\nESTADO DE CUENTA: {0}", this.estadoCuenta);
                     break;
                 default:
                     break;

@@ -143,7 +143,7 @@ namespace EntidadesInstanciables
             foreach (Jornada jornada in uni.Jornadas)
             {
                 sb.Append(jornada.ToString());
-                sb.AppendLine("<-------------------------------------------------->");
+                sb.AppendLine("<-------------------------------------------------->\n");
             }
             return sb.ToString();
         }
