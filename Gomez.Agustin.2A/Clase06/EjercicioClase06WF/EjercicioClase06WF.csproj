@@ -46,15 +46,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ETipoTinta.cs" />
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Form1.cs" />
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmTinta.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="FrmTinta.cs" />
     <Compile Include="FrmTinta.Designer.cs">
       <DependentUpon>FrmTinta.cs</DependentUpon>
     </Compile>

@@ -48,21 +48,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Centralita.cs" />
-    <Compile Include="FrmLlamador.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="FrmLlamador.cs" />
     <Compile Include="FrmLlamador.Designer.cs">
       <DependentUpon>FrmLlamador.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmMenu.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="FrmMenu.cs" />
     <Compile Include="FrmMenu.Designer.cs">
       <DependentUpon>FrmMenu.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmMostrar.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="FrmMostrar.cs" />
     <Compile Include="FrmMostrar.Designer.cs">
       <DependentUpon>FrmMostrar.cs</DependentUpon>
     </Compile>
