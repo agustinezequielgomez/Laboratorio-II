@@ -55,7 +55,9 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LaCalculadora.cs" />
+    <Compile Include="LaCalculadora.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="LaCalculadora.Designer.cs">
       <DependentUpon>LaCalculadora.cs</DependentUpon>
     </Compile>
