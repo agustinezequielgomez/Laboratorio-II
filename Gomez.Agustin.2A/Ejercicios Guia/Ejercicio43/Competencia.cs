@@ -155,7 +155,17 @@ namespace Ejercicio43
 
             }
             return retorno;
+        }
 
+        public static bool operator -(Competencia c, VehiculoDeCarrera a)
+        {
+            bool retorno = false;
+            if (c == a)
+            {
+                c.competidores.Remove(a);
+                retorno = true;
+            }
+            return retorno;
         }
     }
 }

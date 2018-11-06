@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejercicio48
+namespace Ejercicio50
 {
-    class Factura : Documento
+    interface IGuardar<T,V>
     {
-        public Factura(int numero) : base(numero)
-        {
-        }
+        bool Guardar(T obj);
+        V Leer();
     }
 }

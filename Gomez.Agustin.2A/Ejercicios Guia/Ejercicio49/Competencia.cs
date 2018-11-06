@@ -4,19 +4,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejercicio36
+namespace Ejercicio49
 {
-    class Competencia
+    class Competencia<T> where T : VehiculoDeCarrera
     {
         private short cantidadCompetidores;
         private short cantidadVuelas;
-        private List<VehiculoDeCarrera> competidores;
+        private List<T> competidores;
         private TipoCompetencia tipo;
 
         public enum TipoCompetencia
         {
             F1,
             MotoCross
+        }
+
+        public List<T> Competidores
+        {
+            get
+            {
+                return this.competidores;
+            }
         }
 
         public short CantidadCompetidores
@@ -65,7 +73,7 @@ namespace Ejercicio36
 
         private Competencia()
         {
-            this.competidores = new List<VehiculoDeCarrera>();
+            this.competidores = new List<T>();
         }
 
         public Competencia(short cantidadvueltas, short cantidadCompetidores,TipoCompetencia tipo) : this()
@@ -75,36 +83,47 @@ namespace Ejercicio36
             this.Tipo = tipo;
         }
 
-        public static bool operator ==(Competencia c, VehiculoDeCarrera a)
+        public static bool operator ==(Competencia<T> c, VehiculoDeCarrera a)
         {
             bool retorno = false;
-            if(c.Tipo == TipoCompetencia.F1 && a is AutoF1)
+            try
             {
-                foreach (AutoF1 item in c.competidores)
+                if (c.Tipo == TipoCompetencia.F1 && a is AutoF1)
                 {
-                    if(item == ((AutoF1)a))
+                    foreach (T item in c.competidores)
                     {
-                        retorno = true;
-                        break;
+                        if (item == ((AutoF1)a))
+                        {
+                            retorno = true;
+                            break;
+                        }
                     }
                 }
-            }
-            else if(c.Tipo == TipoCompetencia.MotoCross && a is MotoCross)
-            {
-                foreach (MotoCross item in c.competidores)
+                else if (c.Tipo == TipoCompetencia.MotoCross && a is MotoCross)
                 {
-                    if (item == ((MotoCross)a))
+                    foreach (T item in c.competidores)
                     {
-                        retorno = true;
-                        break;
+                        if (item == ((MotoCross)a))
+                        {
+                            retorno = true;
+                            break;
+                        }
                     }
                 }
+                else
+                {
+                    throw new CompetenciaNoDisponibleException("\nEl vehiculo no corresponde a la competencia", "Clase Competencia", "Metodo ==");
+                }
+            }catch(CompetenciaNoDisponibleException e)
+            {
+                throw e;
             }
+
 
             return retorno;
         }
 
-        public static bool operator !=(Competencia c, VehiculoDeCarrera a)
+        public static bool operator !=(Competencia<T> c, VehiculoDeCarrera a)
         {
             return !(c == a);
         }
@@ -113,37 +132,45 @@ namespace Ejercicio36
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendFormat("\nCantidad de competidores: {0}\nCantidad de vueltas: {1}\nCompetidores: ", this.cantidadCompetidores, this.cantidadVuelas);
-            foreach (AutoF1 item in this.competidores)
+            foreach (T item in this.competidores)
             {
                 sb.AppendFormat(item.MostrarDatos());
             }
             return sb.ToString();
         }
 
-        public static bool operator +(Competencia c, VehiculoDeCarrera a)
+        public static bool operator +(Competencia<T> c, T a)
         {
             Random random = new Random();
             bool retorno = false;
             if(c.competidores.Count < c.cantidadCompetidores)
             {
-                if (c!=a)
+                try
                 {
-                    a.EnCompetencia = true;
-                    a.VueltasRestantes = c.cantidadVuelas;
-                    a.CantidadCombustible = (short)random.Next(15, 100);
-                    retorno = true;
-                    c.competidores.Add(a); 
+                    if (!(c == a))
+                    {
+                        a.EnCompetencia = true;
+                        a.VueltasRestantes = c.cantidadVuelas;
+                        a.CantidadCombustible = (short)random.Next(15, 100);
+                        retorno = true;
+                        c.competidores.Add(a);
+                    }
                 }
+                catch(CompetenciaNoDisponibleException e)
+                {
+                    throw new CompetenciaNoDisponibleException("\nCompetencia incorrecta", "Clase competencia", "Metodo operador +", e);
+                }
+
             }
             return retorno;
         }
 
-        public static bool operator -(Competencia c, VehiculoDeCarrera a)
+        public static bool operator -(Competencia<T> c, T a)
         {
             bool retorno = false;
-            if (c == a)
+            if(c == a)
             {
-                c.competidores.Remove(a);
+                c.Competidores.Remove(a);
                 retorno = true;
             }
             return retorno;

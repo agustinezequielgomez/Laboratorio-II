@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ejercicio48
+namespace Ejercicio42
 {
-    class Factura : Documento
+    class MiException : Exception
     {
-        public Factura(int numero) : base(numero)
+
+        public MiException(string mensaje, Exception e) : base(mensaje, e)
         {
+
         }
     }
 }
