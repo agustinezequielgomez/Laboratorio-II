@@ -7,6 +7,8 @@ using System.Data.SqlClient;
 
 namespace Entidades
 {
+    public delegate void MiDelegado();
+    public delegate void DelegadoTV(Televisor televisor, TVEventArgs args);
     public class Televisor
     {
         #region Atributos
@@ -15,6 +17,8 @@ namespace Entidades
         public double precio;
         public int pulgadas;
         public string pais;
+        public event MiDelegado MiEvento;
+        public event DelegadoTV EventoTV;
         #endregion
 
         #region Constructor
@@ -49,6 +53,9 @@ namespace Entidades
                 conexion.Open();
                 command.ExecuteNonQuery(); //Ejecuto consultas que no retornan resultado
                 conexion.Close();
+                //Eventos
+                this.MiEvento();
+                this.EventoTV(this,new TVEventArgs());
             }
             catch (Exception)
             {
