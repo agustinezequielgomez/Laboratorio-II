@@ -16,11 +16,15 @@ namespace EjercicioClase17
         {
             #region Leo de SQL
             List<Televisor> listaTelevisores = new List<Televisor>();
-            SqlConnection conexion = new SqlConnection(Properties.Settings.Default.Conexion); //Establezco una conexion al SQL Server
+            SqlConnection conexion = new SqlConnection(Properties.Settings.Default.Conexion2); //Establezco una conexion al SQL Server. Properties.Settings.Default.Conexion -> hace referencia a la conexion establecida en los settings del proyecto.
             SqlCommand comando = new SqlCommand(); //Establezco un comando a ejecutar sobre la base de datos
-            comando.CommandType = CommandType.Text; //Establezco el tipo de comando a realizar
+            comando.CommandType = CommandType.Text; //Establezco el tipo de comando a realizar.
+            /*CommandType.StoredProcedure: ejecuta un script creado previamente (Ejemplo una consulta).
+             * CommandType.TableDirect: Nombre de la tabla
+             * CommandType.Text: Instruccion a ejecutar sobre la base de datos.
+             * */
             comando.CommandText = "SELECT * FROM Televisores"; //Establezco el comando en si
-            comando.Connection = conexion; //Le asigno al comando que va a realizarse una conexion al SQL Server
+            comando.Connection = conexion; //Le asigno al comando la conexion sobre la cual va a trabajar.
             conexion.Open(); //Abro la Conexion
             SqlDataReader lector = comando.ExecuteReader(); //Objeto que lee linea por linea la base de datos
             while(lector.Read()) //Leo una linea y se le asigna al objeto lector

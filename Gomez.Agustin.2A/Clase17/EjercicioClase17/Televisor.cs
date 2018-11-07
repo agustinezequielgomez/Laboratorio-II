@@ -36,7 +36,7 @@ namespace EjercicioClase17
         #region Metodos
         public bool Insertar()
         {
-            SqlConnection conexion = new SqlConnection(Properties.Settings.Default.Conexion);
+            SqlConnection conexion = new SqlConnection(Properties.Settings.Default.Conexion2);
             SqlCommand command = new SqlCommand();
             command.CommandType = System.Data.CommandType.Text;
             command.CommandText = String.Format("INSERT INTO Televisores values({0},'{1}',{2},{3},'{4}')", this.id, this.marca, this.precio, this.pulgadas, this.pais);

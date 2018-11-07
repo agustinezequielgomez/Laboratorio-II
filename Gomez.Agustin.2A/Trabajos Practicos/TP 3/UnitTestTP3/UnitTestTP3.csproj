@@ -29,7 +29,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <IntermediateOutputPath>C:\Users\alumno\AppData\Local\Temp\vs2196.tmp\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\AGUS_\AppData\Local\Temp\vsB0F8.tmp\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -38,7 +38,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <IntermediateOutputPath>C:\Users\alumno\AppData\Local\Temp\vs2196.tmp\Release\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\AGUS_\AppData\Local\Temp\vsB0F8.tmp\Release\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Archivos">
