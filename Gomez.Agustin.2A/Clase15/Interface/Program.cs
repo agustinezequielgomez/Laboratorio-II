@@ -20,17 +20,40 @@ namespace Interface
 
             //AVION
             Console.WriteLine(avion.CalcularImpuesto());
+            Console.WriteLine(((IARBA)avion).CalcularImpuesto());
             Console.WriteLine(Gestion.MostrarImpuestNacional(avion));
             Console.WriteLine(Gestion.MostrarImpuestoProvincial(avion));
+            Console.WriteLine();
 
             //CARRETA
             Console.WriteLine(carreta.CalcularImpuesto());
             Console.WriteLine(Gestion.MostrarImpuestoProvincial(carreta));
+            Console.WriteLine();
 
             //COMERCIAL
             Console.WriteLine(comercial.CalcularImpuesto());
+            Console.WriteLine(((IARBA)comercial).CalcularImpuesto());
             Console.WriteLine(Gestion.MostrarImpuestNacional(comercial));
             Console.WriteLine(Gestion.MostrarImpuestoProvincial(comercial));
+            Console.WriteLine();
+
+            //DEPORTIVO
+            Console.WriteLine(deportivo.CalcularImpuesto());
+            Console.WriteLine(((IARBA)deportivo).CalcularImpuesto());
+            Console.WriteLine(Gestion.MostrarImpuestNacional(deportivo));
+            Console.WriteLine(Gestion.MostrarImpuestoProvincial(deportivo));
+            Console.WriteLine();
+
+            //FAMILIAR
+
+            //PRIVADO
+            Console.WriteLine(privado.CalcularImpuesto());
+            Console.WriteLine(((IARBA)privado).CalcularImpuesto());
+            Console.WriteLine(Gestion.MostrarImpuestNacional(privado));
+            Console.WriteLine(Gestion.MostrarImpuestoProvincial(privado));
+            Console.WriteLine();
+            
+
 
             //Comercial comercial = new Comercial(1000, 1200, 300);
             //Avion avion = new Avion(100, 5000);

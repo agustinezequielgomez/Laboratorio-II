@@ -35,9 +35,9 @@ namespace Entidades
         #endregion
 
         #region Metodos
-        public double CalcularImpuesto()
+        double IARBA.CalcularImpuesto()
         {
-            return this.Precio * 0.25;
+            return this.Precio * 0.27;
         }
         #endregion
     }
