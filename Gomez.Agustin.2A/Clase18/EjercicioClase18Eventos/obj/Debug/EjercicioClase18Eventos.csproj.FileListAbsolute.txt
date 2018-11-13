@@ -1,0 +1,11 @@
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase18\EjercicioClase18Eventos\obj\Debug\EjercicioClase18Eventos.csproj.CoreCompileInputs.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase18\EjercicioClase18Eventos\bin\Debug\EjercicioClase18Eventos.exe.config
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase18\EjercicioClase18Eventos\bin\Debug\EjercicioClase18Eventos.exe
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase18\EjercicioClase18Eventos\bin\Debug\EjercicioClase18Eventos.pdb
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase18\EjercicioClase18Eventos\bin\Debug\Entidades.dll
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase18\EjercicioClase18Eventos\bin\Debug\Entidades.pdb
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase18\EjercicioClase18Eventos\bin\Debug\Entidades.dll.config
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase18\EjercicioClase18Eventos\obj\Debug\EjercicioClase18Eventos.csproj.CopyComplete
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase18\EjercicioClase18Eventos\obj\Debug\EjercicioClase18Eventos.exe
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase18\EjercicioClase18Eventos\obj\Debug\EjercicioClase18Eventos.pdb
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase18\EjercicioClase18Eventos\obj\Debug\EjercicioClase18Eventos.csprojAssemblyReference.cache

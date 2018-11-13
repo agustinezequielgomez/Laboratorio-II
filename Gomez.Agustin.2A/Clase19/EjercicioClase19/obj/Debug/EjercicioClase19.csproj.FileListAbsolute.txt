@@ -1,0 +1,10 @@
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase19\EjercicioClase19\obj\Debug\EjercicioClase19.csprojAssemblyReference.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase19\EjercicioClase19\obj\Debug\EjercicioClase19.frmPrincipal.resources
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase19\EjercicioClase19\obj\Debug\EjercicioClase19.Properties.Resources.resources
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase19\EjercicioClase19\obj\Debug\EjercicioClase19.csproj.GenerateResource.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase19\EjercicioClase19\obj\Debug\EjercicioClase19.csproj.CoreCompileInputs.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase19\EjercicioClase19\bin\Debug\EjercicioClase19.exe.config
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase19\EjercicioClase19\bin\Debug\EjercicioClase19.exe
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase19\EjercicioClase19\bin\Debug\EjercicioClase19.pdb
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase19\EjercicioClase19\obj\Debug\EjercicioClase19.exe
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase19\EjercicioClase19\obj\Debug\EjercicioClase19.pdb

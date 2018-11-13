@@ -1,0 +1,5 @@
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase08\EntidadesClase08(Continuacion Paleta)\bin\Debug\EntidadesClase08(Continuacion Paleta).dll
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase08\EntidadesClase08(Continuacion Paleta)\bin\Debug\EntidadesClase08(Continuacion Paleta).pdb
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase08\EntidadesClase08(Continuacion Paleta)\obj\Debug\EntidadesClase08(Continuacion Paleta).csproj.CoreCompileInputs.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase08\EntidadesClase08(Continuacion Paleta)\obj\Debug\EntidadesClase08(Continuacion Paleta).dll
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase08\EntidadesClase08(Continuacion Paleta)\obj\Debug\EntidadesClase08(Continuacion Paleta).pdb

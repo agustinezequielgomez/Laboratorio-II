@@ -1,0 +1,10 @@
+D:\Laboratorio-II\Gomez.Agustin.2A\TestEntidades\obj\Debug\TestEntidades.csprojAssemblyReference.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\TestEntidades\obj\Debug\TestEntidades.csproj.CoreCompileInputs.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\TestEntidades\bin\Debug\TestEntidades.exe.config
+D:\Laboratorio-II\Gomez.Agustin.2A\TestEntidades\bin\Debug\TestEntidades.exe
+D:\Laboratorio-II\Gomez.Agustin.2A\TestEntidades\bin\Debug\TestEntidades.pdb
+D:\Laboratorio-II\Gomez.Agustin.2A\TestEntidades\bin\Debug\Entidades.dll
+D:\Laboratorio-II\Gomez.Agustin.2A\TestEntidades\bin\Debug\Entidades.pdb
+D:\Laboratorio-II\Gomez.Agustin.2A\TestEntidades\obj\Debug\TestEntidades.csproj.CopyComplete
+D:\Laboratorio-II\Gomez.Agustin.2A\TestEntidades\obj\Debug\TestEntidades.exe
+D:\Laboratorio-II\Gomez.Agustin.2A\TestEntidades\obj\Debug\TestEntidades.pdb

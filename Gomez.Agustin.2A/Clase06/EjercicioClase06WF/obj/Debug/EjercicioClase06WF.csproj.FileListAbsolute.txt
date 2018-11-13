@@ -1,0 +1,11 @@
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase06\EjercicioClase06WF\bin\Debug\EjercicioClase06WF.exe.config
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase06\EjercicioClase06WF\bin\Debug\EjercicioClase06WF.exe
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase06\EjercicioClase06WF\bin\Debug\EjercicioClase06WF.pdb
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase06\EjercicioClase06WF\obj\Debug\EjercicioClase06WF.csprojAssemblyReference.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase06\EjercicioClase06WF\obj\Debug\EjercicioClase06WF.Form1.resources
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase06\EjercicioClase06WF\obj\Debug\EjercicioClase06WF.FrmTinta.resources
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase06\EjercicioClase06WF\obj\Debug\EjercicioClase06WF.Properties.Resources.resources
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase06\EjercicioClase06WF\obj\Debug\EjercicioClase06WF.csproj.GenerateResource.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase06\EjercicioClase06WF\obj\Debug\EjercicioClase06WF.csproj.CoreCompileInputs.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase06\EjercicioClase06WF\obj\Debug\EjercicioClase06WF.exe
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase06\EjercicioClase06WF\obj\Debug\EjercicioClase06WF.pdb

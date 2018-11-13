@@ -1,0 +1,7 @@
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase18\EjercicioClase18\bin\Debug\EjercicioClase18.exe.config
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase18\EjercicioClase18\bin\Debug\EjercicioClase18.exe
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase18\EjercicioClase18\bin\Debug\EjercicioClase18.pdb
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase18\EjercicioClase18\obj\Debug\EjercicioClase18.csprojAssemblyReference.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase18\EjercicioClase18\obj\Debug\EjercicioClase18.csproj.CoreCompileInputs.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase18\EjercicioClase18\obj\Debug\EjercicioClase18.exe
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase18\EjercicioClase18\obj\Debug\EjercicioClase18.pdb

@@ -1,0 +1,14 @@
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase10\TestWFClase10\bin\Debug\TestWFClase08.exe.config
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase10\TestWFClase10\bin\Debug\TestWFClase08.exe
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase10\TestWFClase10\bin\Debug\TestWFClase08.pdb
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase10\TestWFClase10\bin\Debug\EntidadesClase08(Continuacion Paleta).dll
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase10\TestWFClase10\bin\Debug\EntidadesClase08(Continuacion Paleta).pdb
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase10\TestWFClase10\obj\Debug\TestWFClase10.csprojAssemblyReference.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase10\TestWFClase10\obj\Debug\TestWFClase08.Form1.resources
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase10\TestWFClase10\obj\Debug\TestWFClase08.frmTempera.resources
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase10\TestWFClase10\obj\Debug\TestWFClase08.Properties.Resources.resources
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase10\TestWFClase10\obj\Debug\TestWFClase10.csproj.GenerateResource.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase10\TestWFClase10\obj\Debug\TestWFClase10.csproj.CoreCompileInputs.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase10\TestWFClase10\obj\Debug\TestWFClase10.csproj.CopyComplete
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase10\TestWFClase10\obj\Debug\TestWFClase08.exe
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase10\TestWFClase10\obj\Debug\TestWFClase08.pdb

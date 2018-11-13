@@ -1,0 +1,5 @@
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase14\DepositoGenerics\Entidades\bin\Debug\Entidades.dll
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase14\DepositoGenerics\Entidades\bin\Debug\Entidades.pdb
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase14\DepositoGenerics\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase14\DepositoGenerics\Entidades\obj\Debug\Entidades.dll
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase14\DepositoGenerics\Entidades\obj\Debug\Entidades.pdb

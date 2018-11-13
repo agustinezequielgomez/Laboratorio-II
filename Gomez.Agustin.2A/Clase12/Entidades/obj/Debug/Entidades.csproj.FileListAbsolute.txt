@@ -1,0 +1,11 @@
+D:\Laboratorio-II\Gomez.Agustin.2A\Entidades\bin\Debug\Entidades.dll
+D:\Laboratorio-II\Gomez.Agustin.2A\Entidades\bin\Debug\Entidades.pdb
+D:\Laboratorio-II\Gomez.Agustin.2A\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\Entidades\obj\Debug\Entidades.dll
+D:\Laboratorio-II\Gomez.Agustin.2A\Entidades\obj\Debug\Entidades.pdb
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase12\Entidades\bin\Debug\Entidades.dll
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase12\Entidades\bin\Debug\Entidades.pdb
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase12\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase12\Entidades\obj\Debug\Entidades.dll
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase12\Entidades\obj\Debug\Entidades.pdb

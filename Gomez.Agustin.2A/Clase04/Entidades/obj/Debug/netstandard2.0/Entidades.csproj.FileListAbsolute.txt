@@ -1,0 +1,9 @@
+D:\Laboratorio-II\Gomez.Agustin.2A\Entidades\bin\Debug\netstandard2.0\Entidades.deps.json
+D:\Laboratorio-II\Gomez.Agustin.2A\Entidades\bin\Debug\netstandard2.0\Entidades.dll
+D:\Laboratorio-II\Gomez.Agustin.2A\Entidades\bin\Debug\netstandard2.0\Entidades.pdb
+D:\Laboratorio-II\Gomez.Agustin.2A\Entidades\obj\Debug\netstandard2.0\Entidades.csprojAssemblyReference.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\Entidades\obj\Debug\netstandard2.0\Entidades.csproj.CoreCompileInputs.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfoInputs.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfo.cs
+D:\Laboratorio-II\Gomez.Agustin.2A\Entidades\obj\Debug\netstandard2.0\Entidades.dll
+D:\Laboratorio-II\Gomez.Agustin.2A\Entidades\obj\Debug\netstandard2.0\Entidades.pdb

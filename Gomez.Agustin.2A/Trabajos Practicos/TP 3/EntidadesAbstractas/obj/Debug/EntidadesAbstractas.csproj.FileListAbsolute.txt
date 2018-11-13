@@ -1,0 +1,6 @@
+D:\Laboratorio-II\Gomez.Agustin.2A\Trabajos Practicos\TP 3\EntidadesAbstractas\bin\Debug\Entidades.dll
+D:\Laboratorio-II\Gomez.Agustin.2A\Trabajos Practicos\TP 3\EntidadesAbstractas\bin\Debug\Entidades.pdb
+D:\Laboratorio-II\Gomez.Agustin.2A\Trabajos Practicos\TP 3\EntidadesAbstractas\obj\Debug\EntidadesAbstractas.csproj.CoreCompileInputs.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\Trabajos Practicos\TP 3\EntidadesAbstractas\obj\Debug\Entidades.dll
+D:\Laboratorio-II\Gomez.Agustin.2A\Trabajos Practicos\TP 3\EntidadesAbstractas\obj\Debug\Entidades.pdb
+D:\Laboratorio-II\Gomez.Agustin.2A\Trabajos Practicos\TP 3\EntidadesAbstractas\obj\Debug\EntidadesAbstractas.csprojAssemblyReference.cache

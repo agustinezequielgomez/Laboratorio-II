@@ -1,0 +1,5 @@
+C:\Documents and Settings\Usuario\Desktop\@@C#@@\Planificacion Programacion II\C#-2010\Clase 10-2010\Excepciones-2010\04-Excepciones-2010\bin\Release\04-Excepciones-2010.exe
+C:\Documents and Settings\Usuario\Desktop\@@C#@@\Planificacion Programacion II\C#-2010\Clase 10-2010\Excepciones-2010\04-Excepciones-2010\bin\Release\04-Excepciones-2010.pdb
+C:\Documents and Settings\Usuario\Desktop\@@C#@@\Planificacion Programacion II\C#-2010\Clase 10-2010\Excepciones-2010\04-Excepciones-2010\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Usuario\Desktop\@@C#@@\Planificacion Programacion II\C#-2010\Clase 10-2010\Excepciones-2010\04-Excepciones-2010\obj\Release\04-Excepciones-2010.exe
+C:\Documents and Settings\Usuario\Desktop\@@C#@@\Planificacion Programacion II\C#-2010\Clase 10-2010\Excepciones-2010\04-Excepciones-2010\obj\Release\04-Excepciones-2010.pdb

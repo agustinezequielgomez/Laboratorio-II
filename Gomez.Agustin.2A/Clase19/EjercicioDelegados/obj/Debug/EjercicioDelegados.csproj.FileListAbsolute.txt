@@ -1,0 +1,12 @@
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase19\EjercicioDelegados\obj\Debug\EjercicioDelegados.csprojAssemblyReference.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase19\EjercicioDelegados\obj\Debug\EjercicioDelegados.frmDatos.resources
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase19\EjercicioDelegados\obj\Debug\EjercicioDelegados.FrmPrincipal.resources
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase19\EjercicioDelegados\obj\Debug\EjercicioDelegados.frmTestDelegados.resources
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase19\EjercicioDelegados\obj\Debug\EjercicioDelegados.Properties.Resources.resources
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase19\EjercicioDelegados\obj\Debug\EjercicioDelegados.csproj.GenerateResource.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase19\EjercicioDelegados\obj\Debug\EjercicioDelegados.csproj.CoreCompileInputs.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase19\EjercicioDelegados\bin\Debug\EjercicioDelegados.exe.config
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase19\EjercicioDelegados\bin\Debug\EjercicioDelegados.exe
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase19\EjercicioDelegados\bin\Debug\EjercicioDelegados.pdb
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase19\EjercicioDelegados\obj\Debug\EjercicioDelegados.exe
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase19\EjercicioDelegados\obj\Debug\EjercicioDelegados.pdb

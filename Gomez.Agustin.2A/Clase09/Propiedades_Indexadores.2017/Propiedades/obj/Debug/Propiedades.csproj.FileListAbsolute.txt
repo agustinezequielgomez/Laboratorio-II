@@ -1,0 +1,17 @@
+D:\CSharp\Clase06\Propiedades_Indexadores.2016\Propiedades\bin\Debug\Propiedades.exe.config
+D:\CSharp\Clase06\Propiedades_Indexadores.2016\Propiedades\bin\Debug\Propiedades.exe
+D:\CSharp\Clase06\Propiedades_Indexadores.2016\Propiedades\bin\Debug\Propiedades.pdb
+D:\CSharp\Clase06\Propiedades_Indexadores.2016\Propiedades\obj\Debug\Propiedades.csprojResolveAssemblyReference.cache
+D:\CSharp\Clase06\Propiedades_Indexadores.2016\Propiedades\obj\Debug\Propiedades.exe
+D:\CSharp\Clase06\Propiedades_Indexadores.2016\Propiedades\obj\Debug\Propiedades.pdb
+D:\MAXI\Propiedades_Indexadores.2016\Propiedades\bin\Debug\Propiedades.exe.config
+D:\MAXI\Propiedades_Indexadores.2016\Propiedades\bin\Debug\Propiedades.exe
+D:\MAXI\Propiedades_Indexadores.2016\Propiedades\bin\Debug\Propiedades.pdb
+D:\MAXI\Propiedades_Indexadores.2016\Propiedades\obj\Debug\Propiedades.csprojResolveAssemblyReference.cache
+D:\MAXI\Propiedades_Indexadores.2016\Propiedades\obj\Debug\Propiedades.exe
+D:\MAXI\Propiedades_Indexadores.2016\Propiedades\obj\Debug\Propiedades.pdb
+D:\MAXI\Propiedades_Indexadores.2017\Propiedades\bin\Debug\Propiedades.exe.config
+D:\MAXI\Propiedades_Indexadores.2017\Propiedades\obj\Debug\Propiedades.exe
+D:\MAXI\Propiedades_Indexadores.2017\Propiedades\obj\Debug\Propiedades.pdb
+D:\MAXI\Propiedades_Indexadores.2017\Propiedades\bin\Debug\Propiedades.exe
+D:\MAXI\Propiedades_Indexadores.2017\Propiedades\bin\Debug\Propiedades.pdb

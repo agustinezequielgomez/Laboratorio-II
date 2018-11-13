@@ -1,0 +1,7 @@
+D:\Laboratorio-II\Gomez.Agustin.2A\Ejercicios Guia\Ejercicio21\bin\Debug\Ejercicio21.exe.config
+D:\Laboratorio-II\Gomez.Agustin.2A\Ejercicios Guia\Ejercicio21\bin\Debug\Ejercicio21.exe
+D:\Laboratorio-II\Gomez.Agustin.2A\Ejercicios Guia\Ejercicio21\bin\Debug\Ejercicio21.pdb
+D:\Laboratorio-II\Gomez.Agustin.2A\Ejercicios Guia\Ejercicio21\obj\Debug\Ejercicio21.csprojAssemblyReference.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\Ejercicios Guia\Ejercicio21\obj\Debug\Ejercicio21.csproj.CoreCompileInputs.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\Ejercicios Guia\Ejercicio21\obj\Debug\Ejercicio21.exe
+D:\Laboratorio-II\Gomez.Agustin.2A\Ejercicios Guia\Ejercicio21\obj\Debug\Ejercicio21.pdb

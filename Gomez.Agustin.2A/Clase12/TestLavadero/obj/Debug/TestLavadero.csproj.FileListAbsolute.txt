@@ -1,0 +1,10 @@
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase12\TestLavadero\bin\Debug\TestLavadero.exe.config
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase12\TestLavadero\bin\Debug\TestLavadero.exe
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase12\TestLavadero\bin\Debug\TestLavadero.pdb
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase12\TestLavadero\bin\Debug\Entidades.dll
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase12\TestLavadero\bin\Debug\Entidades.pdb
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase12\TestLavadero\obj\Debug\TestLavadero.csprojAssemblyReference.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase12\TestLavadero\obj\Debug\TestLavadero.csproj.CoreCompileInputs.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase12\TestLavadero\obj\Debug\TestLavadero.csproj.CopyComplete
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase12\TestLavadero\obj\Debug\TestLavadero.exe
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase12\TestLavadero\obj\Debug\TestLavadero.pdb

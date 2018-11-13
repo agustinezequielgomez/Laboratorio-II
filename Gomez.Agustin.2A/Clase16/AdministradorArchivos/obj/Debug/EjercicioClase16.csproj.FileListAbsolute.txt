@@ -1,0 +1,7 @@
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase16\AdministradorArchivos\bin\Debug\AdministradorArchivos.exe.config
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase16\AdministradorArchivos\bin\Debug\AdministradorArchivos.exe
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase16\AdministradorArchivos\bin\Debug\AdministradorArchivos.pdb
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase16\AdministradorArchivos\obj\Debug\EjercicioClase16.csprojAssemblyReference.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase16\AdministradorArchivos\obj\Debug\EjercicioClase16.csproj.CoreCompileInputs.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase16\AdministradorArchivos\obj\Debug\AdministradorArchivos.exe
+D:\Laboratorio-II\Gomez.Agustin.2A\Clase16\AdministradorArchivos\obj\Debug\AdministradorArchivos.pdb

@@ -1,0 +1,12 @@
+D:\CSharp\Clase06\Propiedades_Indexadores.2016\Indexadores.2016\bin\Debug\Indexadores.2016.exe.config
+D:\CSharp\Clase06\Propiedades_Indexadores.2016\Indexadores.2016\bin\Debug\Indexadores.2016.exe
+D:\CSharp\Clase06\Propiedades_Indexadores.2016\Indexadores.2016\bin\Debug\Indexadores.2016.pdb
+D:\CSharp\Clase06\Propiedades_Indexadores.2016\Indexadores.2016\obj\Debug\Indexadores.2016.csprojResolveAssemblyReference.cache
+D:\CSharp\Clase06\Propiedades_Indexadores.2016\Indexadores.2016\obj\Debug\Indexadores.2016.exe
+D:\CSharp\Clase06\Propiedades_Indexadores.2016\Indexadores.2016\obj\Debug\Indexadores.2016.pdb
+D:\MAXI\Propiedades_Indexadores.2016\Indexadores.2016\bin\Debug\Indexadores.2016.exe.config
+D:\MAXI\Propiedades_Indexadores.2016\Indexadores.2016\obj\Debug\Indexadores.2016.exe
+D:\MAXI\Propiedades_Indexadores.2016\Indexadores.2016\obj\Debug\Indexadores.2016.pdb
+D:\MAXI\Propiedades_Indexadores.2016\Indexadores.2016\bin\Debug\Indexadores.2016.exe
+D:\MAXI\Propiedades_Indexadores.2016\Indexadores.2016\bin\Debug\Indexadores.2016.pdb
+D:\MAXI\Propiedades_Indexadores.2016\Indexadores.2016\obj\Debug\Indexadores.2016.csprojResolveAssemblyReference.cache

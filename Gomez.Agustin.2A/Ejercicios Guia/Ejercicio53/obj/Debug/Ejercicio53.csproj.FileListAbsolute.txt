@@ -1,0 +1,7 @@
+D:\Laboratorio-II\Gomez.Agustin.2A\Ejercicios Guia\Ejercicio53\bin\Debug\Ejercicio53.exe.config
+D:\Laboratorio-II\Gomez.Agustin.2A\Ejercicios Guia\Ejercicio53\bin\Debug\Ejercicio53.exe
+D:\Laboratorio-II\Gomez.Agustin.2A\Ejercicios Guia\Ejercicio53\bin\Debug\Ejercicio53.pdb
+D:\Laboratorio-II\Gomez.Agustin.2A\Ejercicios Guia\Ejercicio53\obj\Debug\Ejercicio53.csprojAssemblyReference.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\Ejercicios Guia\Ejercicio53\obj\Debug\Ejercicio53.csproj.CoreCompileInputs.cache
+D:\Laboratorio-II\Gomez.Agustin.2A\Ejercicios Guia\Ejercicio53\obj\Debug\Ejercicio53.exe
+D:\Laboratorio-II\Gomez.Agustin.2A\Ejercicios Guia\Ejercicio53\obj\Debug\Ejercicio53.pdb

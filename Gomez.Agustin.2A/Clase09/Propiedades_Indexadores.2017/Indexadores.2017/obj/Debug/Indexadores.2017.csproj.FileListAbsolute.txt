@@ -1,0 +1,13 @@
+D:\MAXI\Propiedades_Indexadores.2016\Indexadores.2016\bin\Debug\Indexadores.2016.exe.config
+D:\MAXI\Propiedades_Indexadores.2016\Indexadores.2016\bin\Debug\Indexadores.2016.exe
+D:\MAXI\Propiedades_Indexadores.2016\Indexadores.2016\bin\Debug\Indexadores.2016.pdb
+D:\MAXI\Propiedades_Indexadores.2016\Indexadores.2016\obj\Debug\Indexadores.2016.exe
+D:\MAXI\Propiedades_Indexadores.2016\Indexadores.2016\obj\Debug\Indexadores.2016.pdb
+D:\MAXI\Propiedades_Indexadores.2016\Indexadores.2017\bin\Debug\Indexadores.2016.exe.config
+D:\MAXI\Propiedades_Indexadores.2016\Indexadores.2017\obj\Debug\Indexadores.2016.exe
+D:\MAXI\Propiedades_Indexadores.2016\Indexadores.2017\obj\Debug\Indexadores.2016.pdb
+D:\MAXI\Propiedades_Indexadores.2017\Indexadores.2017\bin\Debug\Indexadores.2016.exe.config
+D:\MAXI\Propiedades_Indexadores.2017\Indexadores.2017\bin\Debug\Indexadores.2016.exe
+D:\MAXI\Propiedades_Indexadores.2017\Indexadores.2017\bin\Debug\Indexadores.2016.pdb
+D:\MAXI\Propiedades_Indexadores.2017\Indexadores.2017\obj\Debug\Indexadores.2016.exe
+D:\MAXI\Propiedades_Indexadores.2017\Indexadores.2017\obj\Debug\Indexadores.2016.pdb
