@@ -1,0 +1,14 @@
+D:\Mis Documentos\Practica_Segundo_Parcial\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+D:\Mis Documentos\Practica_Segundo_Parcial\Entidades\bin\Debug\Entidades.dll
+D:\Mis Documentos\Practica_Segundo_Parcial\Entidades\bin\Debug\Entidades.pdb
+D:\Mis Documentos\Practica_Segundo_Parcial\Entidades\bin\Debug\Interfaces.dll
+D:\Mis Documentos\Practica_Segundo_Parcial\Entidades\bin\Debug\Interfaces.pdb
+D:\Mis Documentos\Practica_Segundo_Parcial\Entidades\obj\Debug\Entidades.dll
+D:\Mis Documentos\Practica_Segundo_Parcial\Entidades\obj\Debug\Entidades.pdb
+F:\Programacion II\Practica_Segundo_Parcial\Entidades\bin\Debug\Entidades.dll
+F:\Programacion II\Practica_Segundo_Parcial\Entidades\bin\Debug\Entidades.pdb
+F:\Programacion II\Practica_Segundo_Parcial\Entidades\bin\Debug\Interfaces.dll
+F:\Programacion II\Practica_Segundo_Parcial\Entidades\bin\Debug\Interfaces.pdb
+F:\Programacion II\Practica_Segundo_Parcial\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+F:\Programacion II\Practica_Segundo_Parcial\Entidades\obj\Debug\Entidades.dll
+F:\Programacion II\Practica_Segundo_Parcial\Entidades\obj\Debug\Entidades.pdb

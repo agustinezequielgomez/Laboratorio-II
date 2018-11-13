@@ -1,0 +1,72 @@
+utiles (abstract)
+*-precio
+*-marca
+
+*-Precio (get;set) - abstract
+*-Marca (get; set) - abstract
+
+utilesToString (virtual)
+
+*-*-*--*-*-*-*-*-*-*--*-*-*-*---*-*-*-
+lapicera : utiles
+*-color
+*-trazo
+
+ToString
+
+*-*-*--*-*-*-*-*-*-*--*-*-*-*---*-*-*-
+Goma : utiles
+
+*-soloLapiz
+
+ToString
+
+*-*-*--*-*-*-*-*-*-*--*-*-*-*---*-*-*-
+Cartuchera<T>
+
+*-marca
+*-capacidad
+
+*-list<T>
+
+*-Agregar(T):void
+
+ToString
+
+*-*-*--*-*-*-*-*-*-*--*-*-*-*---*-*-*-
+main
+*-*-*--*-*-*-*-*-*-*--*-*-*-*---*-*-*-
+
+
+*- Cartuchera<Utiles>
+
+*- agregar gomas y lapiceras
+
+*- si no puede agregar, CartucheraLlenaExcepcion
+
+*- agregar método ObtenerUtilesBD():string
+
+*-base de datos: Utiles; tabla: elementos; columnas:
+SELECT TOP 1000 [id]
+      		,[marca]
+      		,[precio]
+      		,[color]
+      		,[trazo]
+      		,[soloLapiz]
+      		,[tipo]
+  FROM [Utiles].[dbo].[elementos]
+
+
+*- agregar interface IInterface (serializarXml(path); deserializarXml(path); 
+				serializarBinario(path); deserializarBinario(path))
+
+*- implementar interface en cartuchera y lapicera
+
+
+*- serializar una lapicera, y la cartuchera de utiles
+
+
+
+
+
+

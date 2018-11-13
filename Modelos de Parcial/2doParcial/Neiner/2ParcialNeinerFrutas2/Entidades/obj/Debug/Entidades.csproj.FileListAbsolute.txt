@@ -1,0 +1,24 @@
+D:\Mis Documentos\Visual Studio 2012\Projects\Moran.Santiago\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+D:\Mis Documentos\Visual Studio 2012\Projects\Moran.Santiago\Entidades\bin\Debug\Entidades.dll
+D:\Mis Documentos\Visual Studio 2012\Projects\Moran.Santiago\Entidades\bin\Debug\Entidades.pdb
+D:\Mis Documentos\Visual Studio 2012\Projects\Moran.Santiago\Entidades\bin\Debug\Exceptions.dll
+D:\Mis Documentos\Visual Studio 2012\Projects\Moran.Santiago\Entidades\bin\Debug\Interfaces.dll
+D:\Mis Documentos\Visual Studio 2012\Projects\Moran.Santiago\Entidades\bin\Debug\Exceptions.pdb
+D:\Mis Documentos\Visual Studio 2012\Projects\Moran.Santiago\Entidades\bin\Debug\Interfaces.pdb
+D:\Mis Documentos\Visual Studio 2012\Projects\Moran.Santiago\Entidades\obj\Debug\Entidades.dll
+D:\Mis Documentos\Visual Studio 2012\Projects\Moran.Santiago\Entidades\obj\Debug\Entidades.pdb
+D:\Mis Documentos\Visual Studio 2012\Projects\Moran.Santiago\Entidades\bin\Debug\EventArgs.dll
+D:\Mis Documentos\Visual Studio 2012\Projects\Moran.Santiago\Entidades\bin\Debug\EventArgs.pdb
+E:\Facu\Laboratorio-II\Modelos de Parcial\2doParcial\Neiner\2ParcialNeinerFrutas2\Entidades\bin\Debug\Entidades.dll
+E:\Facu\Laboratorio-II\Modelos de Parcial\2doParcial\Neiner\2ParcialNeinerFrutas2\Entidades\bin\Debug\Entidades.pdb
+E:\Facu\Laboratorio-II\Modelos de Parcial\2doParcial\Neiner\2ParcialNeinerFrutas2\Entidades\bin\Debug\EventArgs.dll
+E:\Facu\Laboratorio-II\Modelos de Parcial\2doParcial\Neiner\2ParcialNeinerFrutas2\Entidades\bin\Debug\Exceptions.dll
+E:\Facu\Laboratorio-II\Modelos de Parcial\2doParcial\Neiner\2ParcialNeinerFrutas2\Entidades\bin\Debug\Interfaces.dll
+E:\Facu\Laboratorio-II\Modelos de Parcial\2doParcial\Neiner\2ParcialNeinerFrutas2\Entidades\bin\Debug\EventArgs.pdb
+E:\Facu\Laboratorio-II\Modelos de Parcial\2doParcial\Neiner\2ParcialNeinerFrutas2\Entidades\bin\Debug\Exceptions.pdb
+E:\Facu\Laboratorio-II\Modelos de Parcial\2doParcial\Neiner\2ParcialNeinerFrutas2\Entidades\bin\Debug\Interfaces.pdb
+E:\Facu\Laboratorio-II\Modelos de Parcial\2doParcial\Neiner\2ParcialNeinerFrutas2\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+E:\Facu\Laboratorio-II\Modelos de Parcial\2doParcial\Neiner\2ParcialNeinerFrutas2\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+E:\Facu\Laboratorio-II\Modelos de Parcial\2doParcial\Neiner\2ParcialNeinerFrutas2\Entidades\obj\Debug\Entidades.csproj.CopyComplete
+E:\Facu\Laboratorio-II\Modelos de Parcial\2doParcial\Neiner\2ParcialNeinerFrutas2\Entidades\obj\Debug\Entidades.dll
+E:\Facu\Laboratorio-II\Modelos de Parcial\2doParcial\Neiner\2ParcialNeinerFrutas2\Entidades\obj\Debug\Entidades.pdb

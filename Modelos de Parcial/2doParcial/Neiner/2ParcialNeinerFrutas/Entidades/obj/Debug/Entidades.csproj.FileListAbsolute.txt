@@ -1,0 +1,12 @@
+D:\Mis Documentos\Visual Studio 2012\Projects\Mattia.Alberti.Tomas.2A\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+D:\Mis Documentos\Visual Studio 2012\Projects\Mattia.Alberti.Tomas.2A\Entidades\bin\Debug\Entidades.dll
+D:\Mis Documentos\Visual Studio 2012\Projects\Mattia.Alberti.Tomas.2A\Entidades\bin\Debug\Entidades.pdb
+D:\Mis Documentos\Visual Studio 2012\Projects\Mattia.Alberti.Tomas.2A\Entidades\obj\Debug\Entidades.dll
+D:\Mis Documentos\Visual Studio 2012\Projects\Mattia.Alberti.Tomas.2A\Entidades\obj\Debug\Entidades.pdb
+D:\Mis Documentos\Visual Studio 2012\Projects\Mattia.Alberti.Tomas.2A\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\alumno\Desktop\Mattia.Alberti.Tomas.2A\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\alumno\Desktop\Mattia.Alberti.Tomas.2A\Entidades\bin\Debug\Entidades.dll
+C:\Users\alumno\Desktop\Mattia.Alberti.Tomas.2A\Entidades\bin\Debug\Entidades.pdb
+C:\Users\alumno\Desktop\Mattia.Alberti.Tomas.2A\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Desktop\Mattia.Alberti.Tomas.2A\Entidades\obj\Debug\Entidades.dll
+C:\Users\alumno\Desktop\Mattia.Alberti.Tomas.2A\Entidades\obj\Debug\Entidades.pdb

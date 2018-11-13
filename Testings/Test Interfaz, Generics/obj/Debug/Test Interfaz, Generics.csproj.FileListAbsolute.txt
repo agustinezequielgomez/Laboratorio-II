@@ -1,0 +1,7 @@
+E:\Facu\Laboratorio-II\Testings\Test Interfaz, Generics\bin\Debug\Test Interfaz, Generics.exe.config
+E:\Facu\Laboratorio-II\Testings\Test Interfaz, Generics\bin\Debug\Test Interfaz, Generics.exe
+E:\Facu\Laboratorio-II\Testings\Test Interfaz, Generics\bin\Debug\Test Interfaz, Generics.pdb
+E:\Facu\Laboratorio-II\Testings\Test Interfaz, Generics\obj\Debug\Test Interfaz, Generics.csprojAssemblyReference.cache
+E:\Facu\Laboratorio-II\Testings\Test Interfaz, Generics\obj\Debug\Test Interfaz, Generics.csproj.CoreCompileInputs.cache
+E:\Facu\Laboratorio-II\Testings\Test Interfaz, Generics\obj\Debug\Test Interfaz, Generics.exe
+E:\Facu\Laboratorio-II\Testings\Test Interfaz, Generics\obj\Debug\Test Interfaz, Generics.pdb

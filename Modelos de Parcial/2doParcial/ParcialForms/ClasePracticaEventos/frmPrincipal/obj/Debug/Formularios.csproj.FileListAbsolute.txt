@@ -1,0 +1,32 @@
+C:\Users\Tomas y Lucas\source\repos\ClasePracticaEventos\frmPrincipal\bin\Debug\frmPrincipal.exe.config
+C:\Users\Tomas y Lucas\source\repos\ClasePracticaEventos\frmPrincipal\bin\Debug\frmPrincipal.exe
+C:\Users\Tomas y Lucas\source\repos\ClasePracticaEventos\frmPrincipal\bin\Debug\frmPrincipal.pdb
+C:\Users\Tomas y Lucas\source\repos\ClasePracticaEventos\frmPrincipal\obj\Debug\frmPrincipal.frmAltaAlumno.resources
+C:\Users\Tomas y Lucas\source\repos\ClasePracticaEventos\frmPrincipal\obj\Debug\frmPrincipal.frmDatos.resources
+C:\Users\Tomas y Lucas\source\repos\ClasePracticaEventos\frmPrincipal\obj\Debug\frmPrincipal.frmPrincipal.resources
+C:\Users\Tomas y Lucas\source\repos\ClasePracticaEventos\frmPrincipal\obj\Debug\frmPrincipal.frmTestDelegados.resources
+C:\Users\Tomas y Lucas\source\repos\ClasePracticaEventos\frmPrincipal\obj\Debug\frmPrincipal.Properties.Resources.resources
+C:\Users\Tomas y Lucas\source\repos\ClasePracticaEventos\frmPrincipal\obj\Debug\Formularios.csproj.GenerateResource.Cache
+C:\Users\Tomas y Lucas\source\repos\ClasePracticaEventos\frmPrincipal\obj\Debug\Formularios.csproj.CoreCompileInputs.cache
+C:\Users\Tomas y Lucas\source\repos\ClasePracticaEventos\frmPrincipal\obj\Debug\frmPrincipal.exe
+C:\Users\Tomas y Lucas\source\repos\ClasePracticaEventos\frmPrincipal\obj\Debug\frmPrincipal.pdb
+C:\Users\Tomas y Lucas\source\repos\ClasePracticaEventos\frmPrincipal\bin\Debug\Entidades.dll
+C:\Users\Tomas y Lucas\source\repos\ClasePracticaEventos\frmPrincipal\bin\Debug\Entidades.pdb
+C:\Users\Tomas y Lucas\source\repos\ClasePracticaEventos\frmPrincipal\obj\Debug\Formularios.csprojResolveAssemblyReference.cache
+C:\Users\Tomas y Lucas\source\repos\ClasePracticaEventos\frmPrincipal\obj\Debug\frmPrincipal.frmDatosAlumno.resources
+C:\Users\Tomas y Lucas\Documents\GitHub\Program-y-lab\Martes\Martes 14-11-17\ClasePracticaEventos\frmPrincipal\bin\Debug\frmPrincipal.exe.config
+C:\Users\Tomas y Lucas\Documents\GitHub\Program-y-lab\Martes\Martes 14-11-17\ClasePracticaEventos\frmPrincipal\bin\Debug\frmPrincipal.exe
+C:\Users\Tomas y Lucas\Documents\GitHub\Program-y-lab\Martes\Martes 14-11-17\ClasePracticaEventos\frmPrincipal\bin\Debug\frmPrincipal.pdb
+C:\Users\Tomas y Lucas\Documents\GitHub\Program-y-lab\Martes\Martes 14-11-17\ClasePracticaEventos\frmPrincipal\bin\Debug\Entidades.dll
+C:\Users\Tomas y Lucas\Documents\GitHub\Program-y-lab\Martes\Martes 14-11-17\ClasePracticaEventos\frmPrincipal\bin\Debug\Entidades.pdb
+C:\Users\Tomas y Lucas\Documents\GitHub\Program-y-lab\Martes\Martes 14-11-17\ClasePracticaEventos\frmPrincipal\obj\Debug\Formularios.csprojResolveAssemblyReference.cache
+C:\Users\Tomas y Lucas\Documents\GitHub\Program-y-lab\Martes\Martes 14-11-17\ClasePracticaEventos\frmPrincipal\obj\Debug\frmPrincipal.frmAltaAlumno.resources
+C:\Users\Tomas y Lucas\Documents\GitHub\Program-y-lab\Martes\Martes 14-11-17\ClasePracticaEventos\frmPrincipal\obj\Debug\frmPrincipal.frmDatos.resources
+C:\Users\Tomas y Lucas\Documents\GitHub\Program-y-lab\Martes\Martes 14-11-17\ClasePracticaEventos\frmPrincipal\obj\Debug\frmPrincipal.frmDatosAlumno.resources
+C:\Users\Tomas y Lucas\Documents\GitHub\Program-y-lab\Martes\Martes 14-11-17\ClasePracticaEventos\frmPrincipal\obj\Debug\frmPrincipal.frmPrincipal.resources
+C:\Users\Tomas y Lucas\Documents\GitHub\Program-y-lab\Martes\Martes 14-11-17\ClasePracticaEventos\frmPrincipal\obj\Debug\frmPrincipal.frmTestDelegados.resources
+C:\Users\Tomas y Lucas\Documents\GitHub\Program-y-lab\Martes\Martes 14-11-17\ClasePracticaEventos\frmPrincipal\obj\Debug\frmPrincipal.Properties.Resources.resources
+C:\Users\Tomas y Lucas\Documents\GitHub\Program-y-lab\Martes\Martes 14-11-17\ClasePracticaEventos\frmPrincipal\obj\Debug\Formularios.csproj.GenerateResource.Cache
+C:\Users\Tomas y Lucas\Documents\GitHub\Program-y-lab\Martes\Martes 14-11-17\ClasePracticaEventos\frmPrincipal\obj\Debug\Formularios.csproj.CoreCompileInputs.cache
+C:\Users\Tomas y Lucas\Documents\GitHub\Program-y-lab\Martes\Martes 14-11-17\ClasePracticaEventos\frmPrincipal\obj\Debug\frmPrincipal.exe
+C:\Users\Tomas y Lucas\Documents\GitHub\Program-y-lab\Martes\Martes 14-11-17\ClasePracticaEventos\frmPrincipal\obj\Debug\frmPrincipal.pdb

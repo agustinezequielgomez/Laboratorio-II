@@ -1,0 +1,14 @@
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Parte 1\ConsoleApp1\Ejercicio 5\bin\Debug\Ejercicio 5.exe.config
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Parte 1\ConsoleApp1\Ejercicio 5\bin\Debug\Ejercicio 5.exe
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Parte 1\ConsoleApp1\Ejercicio 5\bin\Debug\Ejercicio 5.pdb
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Parte 1\ConsoleApp1\Ejercicio 5\obj\Debug\Ejercicio 5.csprojResolveAssemblyReference.cache
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Parte 1\ConsoleApp1\Ejercicio 5\obj\Debug\Ejercicio 5.csproj.CoreCompileInputs.cache
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Parte 1\ConsoleApp1\Ejercicio 5\obj\Debug\Ejercicio 5.exe
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Parte 1\ConsoleApp1\Ejercicio 5\obj\Debug\Ejercicio 5.pdb
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Ej 1-10\ConsoleApp1\Ejercicio 5\bin\Debug\Ejercicio 5.exe.config
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Ej 1-10\ConsoleApp1\Ejercicio 5\bin\Debug\Ejercicio 5.exe
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Ej 1-10\ConsoleApp1\Ejercicio 5\bin\Debug\Ejercicio 5.pdb
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Ej 1-10\ConsoleApp1\Ejercicio 5\obj\Debug\Ejercicio 5.csprojResolveAssemblyReference.cache
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Ej 1-10\ConsoleApp1\Ejercicio 5\obj\Debug\Ejercicio 5.csproj.CoreCompileInputs.cache
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Ej 1-10\ConsoleApp1\Ejercicio 5\obj\Debug\Ejercicio 5.exe
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Ej 1-10\ConsoleApp1\Ejercicio 5\obj\Debug\Ejercicio 5.pdb

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practica_Segundo_Parcial", "Practica_Segundo_Parcial\Practica_Segundo_Parcial.csproj", "{C22A34BE-F34F-487E-9F54-D86FBB736BBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{E1FB1808-9CC0-4FF2-9A30-979F8E692C3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{B43B8BE4-0EB2-49E4-9FD3-DFF25D8E57F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C22A34BE-F34F-487E-9F54-D86FBB736BBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C22A34BE-F34F-487E-9F54-D86FBB736BBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C22A34BE-F34F-487E-9F54-D86FBB736BBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C22A34BE-F34F-487E-9F54-D86FBB736BBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1FB1808-9CC0-4FF2-9A30-979F8E692C3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1FB1808-9CC0-4FF2-9A30-979F8E692C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1FB1808-9CC0-4FF2-9A30-979F8E692C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1FB1808-9CC0-4FF2-9A30-979F8E692C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B43B8BE4-0EB2-49E4-9FD3-DFF25D8E57F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B43B8BE4-0EB2-49E4-9FD3-DFF25D8E57F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B43B8BE4-0EB2-49E4-9FD3-DFF25D8E57F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B43B8BE4-0EB2-49E4-9FD3-DFF25D8E57F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

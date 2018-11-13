@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <Televisores>
+    <codigo>123</codigo>
+    <marca>Noblex</marca>
+    <precio>5999</precio>
+    <pulgadas>32</pulgadas>
+    <pais>Argentina</pais>
+  </Televisores>
+  <Televisores>
+    <codigo>124</codigo>
+    <marca>Philips</marca>
+    <precio>18950</precio>
+    <pulgadas>49</pulgadas>
+    <pais>China</pais>
+  </Televisores>
+</DocumentElement>

@@ -1,0 +1,10 @@
+D:\Mis Documentos\Visual Studio 2012\Projects\Moran.Santiago\Interfaces\bin\Debug\Interfaces.dll
+D:\Mis Documentos\Visual Studio 2012\Projects\Moran.Santiago\Interfaces\bin\Debug\Interfaces.pdb
+D:\Mis Documentos\Visual Studio 2012\Projects\Moran.Santiago\Interfaces\obj\Debug\Interfaces.csprojResolveAssemblyReference.cache
+D:\Mis Documentos\Visual Studio 2012\Projects\Moran.Santiago\Interfaces\obj\Debug\Interfaces.dll
+D:\Mis Documentos\Visual Studio 2012\Projects\Moran.Santiago\Interfaces\obj\Debug\Interfaces.pdb
+E:\Facu\Laboratorio-II\Modelos de Parcial\2doParcial\Neiner\2ParcialNeinerFrutas2\Interfaces\bin\Debug\Interfaces.dll
+E:\Facu\Laboratorio-II\Modelos de Parcial\2doParcial\Neiner\2ParcialNeinerFrutas2\Interfaces\bin\Debug\Interfaces.pdb
+E:\Facu\Laboratorio-II\Modelos de Parcial\2doParcial\Neiner\2ParcialNeinerFrutas2\Interfaces\obj\Debug\Interfaces.csproj.CoreCompileInputs.cache
+E:\Facu\Laboratorio-II\Modelos de Parcial\2doParcial\Neiner\2ParcialNeinerFrutas2\Interfaces\obj\Debug\Interfaces.dll
+E:\Facu\Laboratorio-II\Modelos de Parcial\2doParcial\Neiner\2ParcialNeinerFrutas2\Interfaces\obj\Debug\Interfaces.pdb

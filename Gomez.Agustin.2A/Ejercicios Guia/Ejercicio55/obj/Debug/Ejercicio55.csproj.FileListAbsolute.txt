@@ -1,0 +1,7 @@
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Ejercicios Guia\Ejercicio55\bin\Debug\Ejercicio55.exe.config
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Ejercicios Guia\Ejercicio55\bin\Debug\Ejercicio55.exe
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Ejercicios Guia\Ejercicio55\bin\Debug\Ejercicio55.pdb
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Ejercicios Guia\Ejercicio55\obj\Debug\Ejercicio55.csprojAssemblyReference.cache
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Ejercicios Guia\Ejercicio55\obj\Debug\Ejercicio55.csproj.CoreCompileInputs.cache
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Ejercicios Guia\Ejercicio55\obj\Debug\Ejercicio55.exe
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Ejercicios Guia\Ejercicio55\obj\Debug\Ejercicio55.pdb

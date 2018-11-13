@@ -1,0 +1,161 @@
+Marca: Filgo
+Precio: 8
+Color: Black
+Trazo: Fino
+
+Marca: Faber Castell
+Precio: 10
+Color: Magenta
+Trazo: Medio
+
+Marca: Maped
+Precio: 7
+Color: Red
+Trazo: Grueso
+
+Marca: Filgo
+Precio: 5
+Solo borra lapiz: SI
+
+Marca: Maped
+Precio: 4
+Solo borra lapiz: NO
+
+Marca: Filgo
+Precio: 8
+Color: Black
+Trazo: Fino
+
+Marca: Faber Castell
+Precio: 10
+Color: Magenta
+Trazo: Medio
+
+Marca: Maped
+Precio: 7
+Color: Red
+Trazo: Grueso
+
+Marca: Filgo
+Precio: 5
+Solo borra lapiz: SI
+
+Marca: Maped
+Precio: 4
+Solo borra lapiz: NO
+
+Marca: Filgo
+Precio: 8
+Color: Black
+Trazo: Fino
+
+Marca: Faber Castell
+Precio: 10
+Color: Magenta
+Trazo: Medio
+
+Marca: Maped
+Precio: 7
+Color: Red
+Trazo: Grueso
+
+Marca: Filgo
+Precio: 5
+Solo borra lapiz: SI
+
+Marca: Maped
+Precio: 4
+Solo borra lapiz: NO
+
+Marca: Filgo
+Precio: 8
+Color: Black
+Trazo: Fino
+
+Marca: Faber Castell
+Precio: 10
+Color: Magenta
+Trazo: Medio
+
+Marca: Maped
+Precio: 7
+Color: Red
+Trazo: Grueso
+
+Marca: Filgo
+Precio: 5
+Solo borra lapiz: SI
+
+Marca: Maped
+Precio: 4
+Solo borra lapiz: NO
+
+Marca: Filgo
+Precio: 8
+Color: Black
+Trazo: Fino
+
+Marca: Faber Castell
+Precio: 10
+Color: Magenta
+Trazo: Medio
+
+Marca: Maped
+Precio: 7
+Color: Red
+Trazo: Grueso
+
+Marca: Filgo
+Precio: 5
+Solo borra lapiz: SI
+
+Marca: Maped
+Precio: 4
+Solo borra lapiz: NO
+
+Marca: Filgo
+Precio: 8
+Color: Black
+Trazo: Fino
+
+Marca: Faber Castell
+Precio: 10
+Color: Magenta
+Trazo: Medio
+
+Marca: Maped
+Precio: 7
+Color: Red
+Trazo: Grueso
+
+Marca: Filgo
+Precio: 5
+Solo borra lapiz: SI
+
+Marca: Maped
+Precio: 4
+Solo borra lapiz: NO
+
+Marca: Filgo
+Precio: 8
+Color: Black
+Trazo: Fino
+
+Marca: Faber Castell
+Precio: 10
+Color: Magenta
+Trazo: Medio
+
+Marca: Maped
+Precio: 7
+Color: Red
+Trazo: Grueso
+
+Marca: Filgo
+Precio: 5
+Solo borra lapiz: SI
+
+Marca: Maped
+Precio: 4
+Solo borra lapiz: NO
+

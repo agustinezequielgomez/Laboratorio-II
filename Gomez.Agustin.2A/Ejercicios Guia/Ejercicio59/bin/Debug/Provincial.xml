@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Provincial xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CostoLlamada>0.99</CostoLlamada>
+  <Duracion>1</Duracion>
+  <NroDestino>222</NroDestino>
+  <NroOrigen>111</NroOrigen>
+  <RutaDeArchivo>Provincial.xml</RutaDeArchivo>
+</Provincial>

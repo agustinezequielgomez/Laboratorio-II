@@ -381,6 +381,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "18- Eventos", "18- Eventos"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio68", "Ejercicios Guia\Ejercicio68\Ejercicio68.csproj", "{74DD165A-FF0A-4E4B-80B6-FAE4A1C28474}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio69", "Ejercicios Guia\Ejercicio69\Ejercicio69.csproj", "{1BDE3C03-A43F-4377-B2BA-3705B6CC2FB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1459,6 +1461,14 @@ Global
 		{74DD165A-FF0A-4E4B-80B6-FAE4A1C28474}.Release|Any CPU.Build.0 = Release|Any CPU
 		{74DD165A-FF0A-4E4B-80B6-FAE4A1C28474}.Release|x86.ActiveCfg = Release|Any CPU
 		{74DD165A-FF0A-4E4B-80B6-FAE4A1C28474}.Release|x86.Build.0 = Release|Any CPU
+		{1BDE3C03-A43F-4377-B2BA-3705B6CC2FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BDE3C03-A43F-4377-B2BA-3705B6CC2FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BDE3C03-A43F-4377-B2BA-3705B6CC2FB2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1BDE3C03-A43F-4377-B2BA-3705B6CC2FB2}.Debug|x86.Build.0 = Debug|Any CPU
+		{1BDE3C03-A43F-4377-B2BA-3705B6CC2FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BDE3C03-A43F-4377-B2BA-3705B6CC2FB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BDE3C03-A43F-4377-B2BA-3705B6CC2FB2}.Release|x86.ActiveCfg = Release|Any CPU
+		{1BDE3C03-A43F-4377-B2BA-3705B6CC2FB2}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1650,6 +1660,7 @@ Global
 		{5B09BC79-EEB5-4DA7-A1BE-CCB4C83D4FEF} = {40B100CB-8F61-4353-A44F-3D764617F65C}
 		{B2313B09-528A-419A-9CC1-F75F7A6C7A7D} = {40B100CB-8F61-4353-A44F-3D764617F65C}
 		{74DD165A-FF0A-4E4B-80B6-FAE4A1C28474} = {B2313B09-528A-419A-9CC1-F75F7A6C7A7D}
+		{1BDE3C03-A43F-4377-B2BA-3705B6CC2FB2} = {B2313B09-528A-419A-9CC1-F75F7A6C7A7D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B63AE23B-0FAE-4D37-9579-EBD1CBA8EBD3}

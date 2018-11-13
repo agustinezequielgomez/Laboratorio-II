@@ -1,0 +1,3 @@
+En el metodo de instancia
+En el metodo estatico
+En el evento click

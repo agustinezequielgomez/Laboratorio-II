@@ -1,0 +1,10 @@
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Ejercicios Guia\Ejercicio56\bin\Debug\Ejercicio56.exe.config
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Ejercicios Guia\Ejercicio56\bin\Debug\Ejercicio56.exe
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Ejercicios Guia\Ejercicio56\bin\Debug\Ejercicio56.pdb
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Ejercicios Guia\Ejercicio56\obj\Debug\Ejercicio56.csprojAssemblyReference.cache
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Ejercicios Guia\Ejercicio56\obj\Debug\Ejercicio56.Form1.resources
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Ejercicios Guia\Ejercicio56\obj\Debug\Ejercicio56.Properties.Resources.resources
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Ejercicios Guia\Ejercicio56\obj\Debug\Ejercicio56.csproj.GenerateResource.cache
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Ejercicios Guia\Ejercicio56\obj\Debug\Ejercicio56.csproj.CoreCompileInputs.cache
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Ejercicios Guia\Ejercicio56\obj\Debug\Ejercicio56.exe
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Ejercicios Guia\Ejercicio56\obj\Debug\Ejercicio56.pdb

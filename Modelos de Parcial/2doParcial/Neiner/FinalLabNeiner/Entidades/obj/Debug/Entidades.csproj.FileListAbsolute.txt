@@ -1,0 +1,6 @@
+C:\Users\SERJH\Desktop\FinalLab\Entidades\bin\Debug\Entidades.dll
+C:\Users\SERJH\Desktop\FinalLab\Entidades\bin\Debug\Entidades.pdb
+C:\Users\SERJH\Desktop\FinalLab\Entidades\obj\Debug\Entidades.dll
+C:\Users\SERJH\Desktop\FinalLab\Entidades\obj\Debug\Entidades.pdb
+C:\Users\SERJH\Desktop\FinalLab\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\SERJH\Desktop\FinalLab\Entidades\bin\Debug\Entidades.dll.config

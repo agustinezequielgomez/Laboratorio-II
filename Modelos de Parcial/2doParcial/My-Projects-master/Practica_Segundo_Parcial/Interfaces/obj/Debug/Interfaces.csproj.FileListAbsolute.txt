@@ -1,0 +1,8 @@
+D:\Mis Documentos\Practica_Segundo_Parcial\Interfaces\bin\Debug\Interfaces.dll
+D:\Mis Documentos\Practica_Segundo_Parcial\Interfaces\bin\Debug\Interfaces.pdb
+D:\Mis Documentos\Practica_Segundo_Parcial\Interfaces\obj\Debug\Interfaces.dll
+D:\Mis Documentos\Practica_Segundo_Parcial\Interfaces\obj\Debug\Interfaces.pdb
+F:\Programacion II\Practica_Segundo_Parcial\Interfaces\bin\Debug\Interfaces.dll
+F:\Programacion II\Practica_Segundo_Parcial\Interfaces\bin\Debug\Interfaces.pdb
+F:\Programacion II\Practica_Segundo_Parcial\Interfaces\obj\Debug\Interfaces.dll
+F:\Programacion II\Practica_Segundo_Parcial\Interfaces\obj\Debug\Interfaces.pdb

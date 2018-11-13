@@ -1,0 +1,13 @@
+D:\VisualStudio\Hilos.2017\Hilos\bin\Debug\Hilos.exe.config
+D:\VisualStudio\Hilos.2017\Hilos\bin\Debug\Hilos.exe
+D:\VisualStudio\Hilos.2017\Hilos\bin\Debug\Hilos.pdb
+D:\VisualStudio\Hilos.2017\Hilos\obj\Debug\Hilos.csprojResolveAssemblyReference.cache
+D:\VisualStudio\Hilos.2017\Hilos\obj\Debug\Hilos.exe
+D:\VisualStudio\Hilos.2017\Hilos\obj\Debug\Hilos.pdb
+C:\Users\Tomas y Lucas\Documents\GitHub\Program-y-lab\Martes\Martes 14-11-17\Hilos.2017\Hilos\bin\Debug\Hilos.exe.config
+C:\Users\Tomas y Lucas\Documents\GitHub\Program-y-lab\Martes\Martes 14-11-17\Hilos.2017\Hilos\bin\Debug\Hilos.exe
+C:\Users\Tomas y Lucas\Documents\GitHub\Program-y-lab\Martes\Martes 14-11-17\Hilos.2017\Hilos\bin\Debug\Hilos.pdb
+C:\Users\Tomas y Lucas\Documents\GitHub\Program-y-lab\Martes\Martes 14-11-17\Hilos.2017\Hilos\obj\Debug\Hilos.csprojResolveAssemblyReference.cache
+C:\Users\Tomas y Lucas\Documents\GitHub\Program-y-lab\Martes\Martes 14-11-17\Hilos.2017\Hilos\obj\Debug\Hilos.csproj.CoreCompileInputs.cache
+C:\Users\Tomas y Lucas\Documents\GitHub\Program-y-lab\Martes\Martes 14-11-17\Hilos.2017\Hilos\obj\Debug\Hilos.exe
+C:\Users\Tomas y Lucas\Documents\GitHub\Program-y-lab\Martes\Martes 14-11-17\Hilos.2017\Hilos\obj\Debug\Hilos.pdb

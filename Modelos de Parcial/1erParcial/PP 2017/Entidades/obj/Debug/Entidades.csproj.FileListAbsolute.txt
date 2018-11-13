@@ -1,0 +1,6 @@
+E:\Facu\Laboratorio-II\Modelos de Parcial\1erParcial\PP 2017\Entidades\bin\Debug\Entidades.dll
+E:\Facu\Laboratorio-II\Modelos de Parcial\1erParcial\PP 2017\Entidades\bin\Debug\Entidades.pdb
+E:\Facu\Laboratorio-II\Modelos de Parcial\1erParcial\PP 2017\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+E:\Facu\Laboratorio-II\Modelos de Parcial\1erParcial\PP 2017\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+E:\Facu\Laboratorio-II\Modelos de Parcial\1erParcial\PP 2017\Entidades\obj\Debug\Entidades.dll
+E:\Facu\Laboratorio-II\Modelos de Parcial\1erParcial\PP 2017\Entidades\obj\Debug\Entidades.pdb

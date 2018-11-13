@@ -1,0 +1,11 @@
+D:\Mis Documentos\Visual Studio 2012\Projects\Moran.Santiago\Exceptions\bin\Debug\Exceptions.dll
+D:\Mis Documentos\Visual Studio 2012\Projects\Moran.Santiago\Exceptions\bin\Debug\Exceptions.pdb
+D:\Mis Documentos\Visual Studio 2012\Projects\Moran.Santiago\Exceptions\obj\Debug\Exceptions.csprojResolveAssemblyReference.cache
+D:\Mis Documentos\Visual Studio 2012\Projects\Moran.Santiago\Exceptions\obj\Debug\Exceptions.dll
+D:\Mis Documentos\Visual Studio 2012\Projects\Moran.Santiago\Exceptions\obj\Debug\Exceptions.pdb
+E:\Facu\Laboratorio-II\Modelos de Parcial\2doParcial\Neiner\2ParcialNeinerFrutas2\Exceptions\bin\Debug\Exceptions.dll
+E:\Facu\Laboratorio-II\Modelos de Parcial\2doParcial\Neiner\2ParcialNeinerFrutas2\Exceptions\bin\Debug\Exceptions.pdb
+E:\Facu\Laboratorio-II\Modelos de Parcial\2doParcial\Neiner\2ParcialNeinerFrutas2\Exceptions\obj\Debug\Exceptions.csprojAssemblyReference.cache
+E:\Facu\Laboratorio-II\Modelos de Parcial\2doParcial\Neiner\2ParcialNeinerFrutas2\Exceptions\obj\Debug\Exceptions.csproj.CoreCompileInputs.cache
+E:\Facu\Laboratorio-II\Modelos de Parcial\2doParcial\Neiner\2ParcialNeinerFrutas2\Exceptions\obj\Debug\Exceptions.dll
+E:\Facu\Laboratorio-II\Modelos de Parcial\2doParcial\Neiner\2ParcialNeinerFrutas2\Exceptions\obj\Debug\Exceptions.pdb

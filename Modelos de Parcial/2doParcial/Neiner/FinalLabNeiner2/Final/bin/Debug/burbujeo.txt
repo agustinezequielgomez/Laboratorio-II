@@ -1,0 +1,15 @@
+Pase por el metodo de instancia10/12/2017 12:06:39
+Pase por el metodo estatico10/12/2017 12:06:39
+estoy en el manejador click10/12/2017 12:06:39
+Pase por el metodo de instancia10/12/2017 12:59:16
+Pase por el metodo estatico10/12/2017 12:59:16
+estoy en el manejador click10/12/2017 12:59:16
+Pase por el metodo de instancia10/12/2017 13:02:56
+Pase por el metodo estatico10/12/2017 13:02:56
+estoy en el manejador click10/12/2017 13:02:56
+Pase por el metodo de instancia10/12/2017 13:03:04
+Pase por el metodo estatico10/12/2017 13:03:04
+estoy en el manejador click10/12/2017 13:03:04
+Pase por el metodo de instancia10/12/2017 13:06:51
+Pase por el metodo estatico10/12/2017 13:06:51
+estoy en el manejador click10/12/2017 13:06:51

@@ -1,0 +1,7 @@
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Ej 11-15\Ejercicios 11-15\Ejercicio 12\bin\Debug\Ejercicio 12.exe.config
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Ej 11-15\Ejercicios 11-15\Ejercicio 12\bin\Debug\Ejercicio 12.exe
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Ej 11-15\Ejercicios 11-15\Ejercicio 12\bin\Debug\Ejercicio 12.pdb
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Ej 11-15\Ejercicios 11-15\Ejercicio 12\obj\Debug\Ejercicio 12.csprojResolveAssemblyReference.cache
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Ej 11-15\Ejercicios 11-15\Ejercicio 12\obj\Debug\Ejercicio 12.csproj.CoreCompileInputs.cache
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Ej 11-15\Ejercicios 11-15\Ejercicio 12\obj\Debug\Ejercicio 12.exe
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Ej 11-15\Ejercicios 11-15\Ejercicio 12\obj\Debug\Ejercicio 12.pdb

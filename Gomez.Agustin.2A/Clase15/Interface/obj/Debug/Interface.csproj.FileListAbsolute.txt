@@ -1,0 +1,10 @@
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Clase15\Interface\bin\Debug\Interface.exe.config
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Clase15\Interface\bin\Debug\Interface.exe
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Clase15\Interface\bin\Debug\Interface.pdb
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Clase15\Interface\bin\Debug\Entidades.dll
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Clase15\Interface\bin\Debug\Entidades.pdb
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Clase15\Interface\obj\Debug\Interface.csprojAssemblyReference.cache
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Clase15\Interface\obj\Debug\Interface.csproj.CoreCompileInputs.cache
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Clase15\Interface\obj\Debug\Interface.csproj.CopyComplete
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Clase15\Interface\obj\Debug\Interface.exe
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Clase15\Interface\obj\Debug\Interface.pdb

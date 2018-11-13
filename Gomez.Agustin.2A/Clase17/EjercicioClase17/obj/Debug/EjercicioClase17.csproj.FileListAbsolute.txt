@@ -1,0 +1,7 @@
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Clase17\EjercicioClase17\bin\Debug\EjercicioClase17.exe.config
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Clase17\EjercicioClase17\bin\Debug\EjercicioClase17.exe
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Clase17\EjercicioClase17\bin\Debug\EjercicioClase17.pdb
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Clase17\EjercicioClase17\obj\Debug\EjercicioClase17.csprojAssemblyReference.cache
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Clase17\EjercicioClase17\obj\Debug\EjercicioClase17.csproj.CoreCompileInputs.cache
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Clase17\EjercicioClase17\obj\Debug\EjercicioClase17.exe
+E:\Facu\Laboratorio-II\Gomez.Agustin.2A\Clase17\EjercicioClase17\obj\Debug\EjercicioClase17.pdb

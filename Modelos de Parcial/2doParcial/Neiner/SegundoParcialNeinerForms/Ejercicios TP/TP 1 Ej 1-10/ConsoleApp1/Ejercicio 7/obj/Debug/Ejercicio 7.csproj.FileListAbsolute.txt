@@ -1,0 +1,13 @@
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Parte 1\ConsoleApp1\Ejercicio 7\bin\Debug\Ejercicio 7.exe.config
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Parte 1\ConsoleApp1\Ejercicio 7\bin\Debug\Ejercicio 7.exe
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Parte 1\ConsoleApp1\Ejercicio 7\bin\Debug\Ejercicio 7.pdb
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Parte 1\ConsoleApp1\Ejercicio 7\obj\Debug\Ejercicio 7.csprojResolveAssemblyReference.cache
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Parte 1\ConsoleApp1\Ejercicio 7\obj\Debug\Ejercicio 7.csproj.CoreCompileInputs.cache
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Parte 1\ConsoleApp1\Ejercicio 7\obj\Debug\Ejercicio 7.exe
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Parte 1\ConsoleApp1\Ejercicio 7\obj\Debug\Ejercicio 7.pdb
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Ej 1-10\ConsoleApp1\Ejercicio 7\bin\Debug\Ejercicio 7.exe.config
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Ej 1-10\ConsoleApp1\Ejercicio 7\bin\Debug\Ejercicio 7.exe
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Ej 1-10\ConsoleApp1\Ejercicio 7\bin\Debug\Ejercicio 7.pdb
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Ej 1-10\ConsoleApp1\Ejercicio 7\obj\Debug\Ejercicio 7.csproj.CoreCompileInputs.cache
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Ej 1-10\ConsoleApp1\Ejercicio 7\obj\Debug\Ejercicio 7.exe
+D:\Programacion UTN\2do cuatri\Programacion-II-master\TP 1 Ej 1-10\ConsoleApp1\Ejercicio 7\obj\Debug\Ejercicio 7.pdb

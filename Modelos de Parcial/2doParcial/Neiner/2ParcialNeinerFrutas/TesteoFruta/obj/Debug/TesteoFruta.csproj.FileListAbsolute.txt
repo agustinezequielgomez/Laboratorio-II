@@ -1,0 +1,16 @@
+D:\Mis Documentos\Visual Studio 2012\Projects\Mattia.Alberti.Tomas.2A\TesteoFruta\bin\Debug\TesteoFruta.exe.config
+D:\Mis Documentos\Visual Studio 2012\Projects\Mattia.Alberti.Tomas.2A\TesteoFruta\bin\Debug\TesteoFruta.exe
+D:\Mis Documentos\Visual Studio 2012\Projects\Mattia.Alberti.Tomas.2A\TesteoFruta\bin\Debug\TesteoFruta.pdb
+D:\Mis Documentos\Visual Studio 2012\Projects\Mattia.Alberti.Tomas.2A\TesteoFruta\bin\Debug\Entidades.dll
+D:\Mis Documentos\Visual Studio 2012\Projects\Mattia.Alberti.Tomas.2A\TesteoFruta\bin\Debug\Entidades.pdb
+D:\Mis Documentos\Visual Studio 2012\Projects\Mattia.Alberti.Tomas.2A\TesteoFruta\obj\Debug\TesteoFruta.csprojResolveAssemblyReference.cache
+D:\Mis Documentos\Visual Studio 2012\Projects\Mattia.Alberti.Tomas.2A\TesteoFruta\obj\Debug\TesteoFruta.exe
+D:\Mis Documentos\Visual Studio 2012\Projects\Mattia.Alberti.Tomas.2A\TesteoFruta\obj\Debug\TesteoFruta.pdb
+C:\Users\alumno\Desktop\Mattia.Alberti.Tomas.2A\TesteoFruta\bin\Debug\TesteoFruta.exe.config
+C:\Users\alumno\Desktop\Mattia.Alberti.Tomas.2A\TesteoFruta\obj\Debug\TesteoFruta.exe
+C:\Users\alumno\Desktop\Mattia.Alberti.Tomas.2A\TesteoFruta\obj\Debug\TesteoFruta.pdb
+C:\Users\alumno\Desktop\Mattia.Alberti.Tomas.2A\TesteoFruta\bin\Debug\TesteoFruta.exe
+C:\Users\alumno\Desktop\Mattia.Alberti.Tomas.2A\TesteoFruta\bin\Debug\TesteoFruta.pdb
+C:\Users\alumno\Desktop\Mattia.Alberti.Tomas.2A\TesteoFruta\bin\Debug\Entidades.dll
+C:\Users\alumno\Desktop\Mattia.Alberti.Tomas.2A\TesteoFruta\bin\Debug\Entidades.pdb
+C:\Users\alumno\Desktop\Mattia.Alberti.Tomas.2A\TesteoFruta\obj\Debug\TesteoFruta.csprojResolveAssemblyReference.cache

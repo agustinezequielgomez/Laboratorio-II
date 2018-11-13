@@ -1,0 +1,3 @@
+Error: 
+Archivo no encontrado
+Archivo no encontrado: Archivo.txt
