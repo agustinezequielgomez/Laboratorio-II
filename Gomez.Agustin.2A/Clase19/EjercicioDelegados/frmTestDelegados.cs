@@ -23,5 +23,17 @@ namespace EjercicioDelegados
             string s = this.textBox1.Text;
             ((FrmPrincipal)(this.Owner)).delegado(s);
         }
+
+        private void ConfigurarOpenSaveFileDialog()
+        {
+            this.openFileDialog1.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyPictures);
+            this.openFileDialog1.DefaultExt = "*.jpg";
+
+        }
+
+        private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+
+        }
     }
 }
