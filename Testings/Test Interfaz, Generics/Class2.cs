@@ -6,11 +6,26 @@ using System.Threading.Tasks;
 
 namespace Test_Interfaz__Generics
 {
-    class Class2 : Class1
+    sealed class Class2 : Class1,Interface3,IComparable
     {
+        public Class2()
+        { }
+
+        public Class2(int aasa)
+        {
+
+        }
+
+        public int Algo => throw new NotImplementedException();
+
         public bool algo()
         {
             return true;
+        }
+
+        public int CompareTo(object obj)
+        {
+            throw new NotImplementedException();
         }
     }
 }

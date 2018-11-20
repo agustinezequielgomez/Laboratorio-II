@@ -6,23 +6,13 @@ using System.Threading.Tasks;
 
 namespace Test_Interfaz__Generics
 {
-    abstract class Class1 : Interface2
+    abstract class Class1 : IComparable,Interface1,Interface2
     {
-
-
-        public bool algo()
-        {
-            return true;
-        }
-
-        public virtual string Funcion1()
+        public int CompareTo(object obj)
         {
             throw new NotImplementedException();
         }
 
-        public virtual int Funcion2()
-        {
-            throw new NotImplementedException();
-        }
+        public virtual int Metodo();
     }
 }

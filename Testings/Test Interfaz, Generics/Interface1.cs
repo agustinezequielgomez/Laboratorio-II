@@ -10,5 +10,6 @@ namespace Test_Interfaz__Generics
     {
         T Funcion1<T>() where T : Class1;
         int Funcion2();
+        static int Algo();
     }
 }

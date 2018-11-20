@@ -10,8 +10,7 @@ namespace Test_Interfaz__Generics
     {
         static void Main(string[] args)
         {
-            Class2 class2 = new Class2();
-            Console.WriteLine(class2.Funcion1());
+            Class3<Class2> class3 = new Class3<Class2>();
 
             Console.ReadKey();
         }

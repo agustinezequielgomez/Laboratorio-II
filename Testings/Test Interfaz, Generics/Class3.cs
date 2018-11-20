@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Test_Interfaz__Generics
 {
-    class Class3<U> : Interface1, Interface2 where U :Class1 
+    class Class3<U> : Interface1, Interface2 where U :Class1,Interface3,IComparable,new() 
     {
-
         public int MyProperty{ get; set; }
 
         public string Funcion1()
@@ -37,6 +36,11 @@ namespace Test_Interfaz__Generics
         }
 
         public U Funcion1<U>() where U : Class1
+        {
+            throw new NotImplementedException();
+        }
+
+        int Interface1.Algo()
         {
             throw new NotImplementedException();
         }

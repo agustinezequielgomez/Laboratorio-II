@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingsNameSpaces", "Testi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test Interfaz, Generics", "Test Interfaz, Generics\Test Interfaz, Generics.csproj", "{3A13CB17-A607-49CC-A9C4-D3EA44847747}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parcialongo", "Parcialongo\Parcialongo.csproj", "{A31419FE-8DAC-400E-9C98-A5333FC6F6E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3A13CB17-A607-49CC-A9C4-D3EA44847747}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A13CB17-A607-49CC-A9C4-D3EA44847747}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A13CB17-A607-49CC-A9C4-D3EA44847747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A31419FE-8DAC-400E-9C98-A5333FC6F6E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31419FE-8DAC-400E-9C98-A5333FC6F6E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A31419FE-8DAC-400E-9C98-A5333FC6F6E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A31419FE-8DAC-400E-9C98-A5333FC6F6E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
