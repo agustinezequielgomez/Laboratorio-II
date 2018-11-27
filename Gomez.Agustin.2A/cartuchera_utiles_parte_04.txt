@@ -1,0 +1,29 @@
+
+*-*-*--*-*-*-*-*-*-*--*-*-*-*---*-*-*-
+main
+*-*-*--*-*-*-*-*-*-*--*-*-*-*---*-*-*-
+
+
+*- crear un delegate ObtenerBD() : List<Utiles>. agregar un metodo que permita recuperar los elementos de la base de datos
+
+*- realizar el codigo necesario para que la obtencion de los registros de la BD se haga en segundo plano.
+
+*- crear evento en cartuchera, si el precio es superior a 53, lanzarlo. 
+
+*- crear manejador de eventos para que al capturarlo, guarde en un archivo de texto, fecha, hora, minutos, segundos y el 
+tipo de util que supero dicho precio.
+
+*- crear un delegate que permita derivar hacia un metodo de instancia que lea y muestre el archivo de texto.
+
+*- realizar el codigo necesario para que la lectura del archivo se haga en segundo plano.
+
+
+
+
+
+
+
+
+
+
+
