@@ -1,0 +1,30 @@
+
+
+Cartuchera<T>
+
+*-marca : string
+*-capacidad : byte
+
+*-elementos : list<T>
+
+constructor privado
+
+Cartuchera(byte)
+
+sobrecarga implicit
+
+implicit (byte) : Cartuchera
+
+Add : void -> agrega un elemento a la cartuchera
+
+Remove(T) : bool -> quita un elemento de la cartuchera
+
+ToString : string -> retorna estados completos de la instancia
+
+
+
+
+
+
+
+

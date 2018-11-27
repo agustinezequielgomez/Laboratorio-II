@@ -1,0 +1,24 @@
+utiles (abstract)
+*-precio : double
+*-marca : string
+
+*-Precio (get;set) - abstract
+*-Marca (get; set) - abstract
+
+utilesToString : string (virtual) -> retorna estados de la instancia
+
+
+lapicera : utiles
+*-color : string
+*-trazo : string
+
+ToString : string -> retorna estados completos de la instancia
+
+
+Goma : utiles
+
+*-soloLapiz : bool
+
+ToString : string -> retorna estados completos de la instancia
+
+
