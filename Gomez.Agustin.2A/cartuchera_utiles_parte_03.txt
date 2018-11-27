@@ -1,0 +1,33 @@
+
+*-*-*--*-*-*-*-*-*-*--*-*-*-*---*-*-*-
+main
+*-*-*--*-*-*-*-*-*-*--*-*-*-*---*-*-*-
+
+
+*- Cartuchera<Utiles>
+
+*- agregar gomas y lapiceras
+
+*- mostrar el contenido completo de la cartuchera
+
+*- si no puede agregar, CartucheraLlenaExcepcion (capturarla en el main)
+
+*- agregar interface IInterface (SerializarXml(path); DeserializarXml(path);)
+
+*- implementar interface en cartuchera y lapicera
+
+*- crear metodo extension SerializarXML(IInterface, string) y DeserializarXML(IInterface, string)
+
+*- serializar una lapicera, y la cartuchera de utiles
+
+
+
+
+
+
+
+
+
+
+
+
